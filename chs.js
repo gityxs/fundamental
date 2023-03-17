@@ -683,6 +683,7 @@ var cnRegReplace = new Map([
     [/^You are gaining (.+) elves per second$/, '你每秒获得 $1 精灵'],
     [/^You have (.+) points$/, '你有 $1 点数'],
     [/^Welcome back, you were away for (.+) seconds.\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 秒。\n当前版本是 $2'],
+    [/^This save is (.+) hours old.\nSave file version is (.+)$/, '此存档的导出时间是 $1 小时前。\n保存文件版本为 $2'],
     [/^This save is (.+) minutes old.\nSave file version is (.+)$/, '此存档的导出时间是 $1 分钟前。\n保存文件版本为 $2'],
     [/^Collapse to (.+) Mass$/, '坍缩到 $1 质量'],
     [/^Next at (.+) points$/, '下一个在 $1 点数'],
