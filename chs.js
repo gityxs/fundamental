@@ -362,7 +362,7 @@ var cnItems = {
     "Protoplanets": "原行星",
     "Rank boost.": "排名提升。",
     "Ready to enter next stage? Next one will be harder than current": "准备好进入下一阶段了吗？ 下一个会比现在更难",
-    "Ring system.": "戒指系统。",
+    "Ring system.": "环系统。",
     "Rubble pile.": "瓦砾堆。",
     "Satellite system.": "卫星系统。",
     "Satellites": "卫星",
