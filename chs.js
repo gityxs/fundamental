@@ -678,7 +678,7 @@ var cnItems = {
     "Unspend Strange quarks will boost this Stage. (Easier goals)": "未花费的奇异夸克将提升这个阶段。 （更简单的目标）",
     "Unspend Strange quarks will boost this Stage. (Effective Rank)": "未花费的奇异夸克将提升这个阶段。 (有效排名)",
     "Unspend Strange quarks will boost this Stage. (Puddle production)": "未花费的奇异夸克将提升这个阶段。 （水坑制作）",
-    "": "",
+    "\"Iron\" wasn't obtained yet": "“铁”还没拿到",
     "": "",
     "": "",
     "": "",
