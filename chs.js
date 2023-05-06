@@ -594,7 +594,7 @@ var cnItems = {
     "Super star cluster.": "超级星团。",
     "This cannot be undone": "这不能被撤消",
     "true": "真",
-    "Jeans instability.": "牛仔裤不稳定。",
+    "Jeans instability.": "金斯不稳定性。",
     "Most basic Element, increases Brown dwarf production by 2.\nAlso Solar mass effect is now known - boost to all Stars.": "最基本的元素，将褐矮星的产量提高 2。\n现在还知道太阳质量效应 - 提升所有恒星。",
     "Most basic Element, increases Brown dwarf production by 2.\nAlso Main-sequence mass effect is now known - boost to all Stars.": "最基本的元素，使褐矮星的产量增加 2。\n现在还知道主序质量效应 - 提升所有恒星。",
     "Coudn't make 'Clusters', because didn't had enough of 'Elements'": "无法制作“集群”，因为没有足够的“元素”",
