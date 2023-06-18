@@ -815,7 +815,7 @@ var cnItems = {
     "toggle auto Structure": "切换自动结构",
     "Visual update interval": "视觉更新间隔",
     "When holding Shift:": "按住 Shift 时：",
-    "": "",
+    "Close": "关闭",
     "": "",
     "": "",
     "": "",
