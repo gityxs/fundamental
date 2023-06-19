@@ -804,7 +804,7 @@ var cnItems = {
     "Perform Interstellar reset when can get at least": "至少可以得到时执行星际重置",
     "Requirement decrease.": "要求降低。",
     "Research 'Improved Tritium' is now better. (+0.3)": "研究“改进的氚”现在更好了。 (+0.3)",
-    "seconds, Solar mass hardcap will start at that value, while Cosmic dust hardcap delayed by difference beetwin it and max value": "秒，太阳质量硬顶将从该值开始，而宇宙尘埃硬顶会延迟它和最大值之间的差异",
+    "seconds, Solar mass hardcap will start at that value, while Cosmic dust hardcap delayed by difference beetwin it and max value": "秒，太阳质量硬上限将从该值开始，而宇宙尘埃硬上限会延迟它和最大值之间的差异",
     "Stage reset reward:": "关卡重置奖励：",
     "Strange boost effect:": "奇怪的提升效果：",
     "Stronger Protium.": "更强的氕。",
