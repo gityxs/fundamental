@@ -1087,6 +1087,8 @@ var cnRegReplace = new Map([
     [/^Welcome back, you were away for (.+) minutes.\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 分钟。\n当前版本是 $2'],
     [/^Welcome back, you were away for (.+) seconds.\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 秒。\n当前版本是 $2'],
     [/^Welcome back, you were away for (.+) hours. \(Offline storage is full\)\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 小时。（离线存储时间已满）\n当前版本是 $2'],
+    [/^Welcome back, you were away for (.+) seconds. \(Offline storage is full\)\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 秒。（离线存储时间已满）\n当前版本是 $2'],
+    [/^Welcome back, you were away for (.+) minutes. \(Offline storage is full\)\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 分钟。（离线存储时间已满）\n当前版本是 $2'],
     [/^Welcome back, you were away for (.+) hours. \(Offline storage is full\)\nGame have been updated from (.+) to (.+)$/, '欢迎回来，您离开了 $1 小时。（离线存储时间已满）\n游戏已经从 $1 版本 更新到 $2 版本'],
     [/^Welcome back, you were away for (.+) hours. \(Your offline time storage is full\)\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 小时。（你的离线存储时间已满）\n当前版本是 $2'],
     [/^This save is (.+) hours old.\nSave file version is (.+)$/, '此存档的导出时间是 $1 小时前。\n保存文件版本为 $2'],
