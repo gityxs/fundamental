@@ -843,7 +843,7 @@ var cnItems = {
     "(Production to hardcap ratio is": "（产量与硬上限比率为",
     "[matter] -": "[物质] -",
     "| Max:": "| 最大：",
-    "All": "阿勒斯",
+    "All": "全部",
     "All rewards are connected to Strangeness": "所有奖励都与奇异性有关",
     "Any reached Milestone will award 1": "任何实现的里程碑都将奖励 1",
     "Cap:": "帽：",
