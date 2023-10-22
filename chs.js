@@ -1158,6 +1158,7 @@ var cnRegReplace = new Map([
     [/^Welcome back, you were away for (.+) hours.\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 小时。\n当前版本是 $2'],
     [/^Welcome back, you were away for (.+) minutes.\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 分钟。\n当前版本是 $2'],
     [/^Welcome back, you were away for (.+) seconds.\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 秒。\n当前版本是 $2'],
+    [/^Welcome back, you were away for (.+) seconds\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 秒\n当前版本是 $2'],
     [/^Welcome back, you were away for (.+) hours. \(Offline storage is full\)\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 小时。（离线存储时间已满）\n当前版本是 $2'],
     [/^Welcome back, you were away for (.+) seconds. \(Offline storage is full\)\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 秒。（离线存储时间已满）\n当前版本是 $2'],
     [/^Welcome back, you were away for (.+) minutes. \(Offline storage is full\)\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 分钟。（离线存储时间已满）\n当前版本是 $2'],
