@@ -1362,6 +1362,7 @@ var cnRegReplace = new Map([
     [/^Welcome back, you were away for (.+) hours. \(Offline storage is full\)\nGame have been updated from (.+) to (.+)$/, '欢迎回来，您离开了 $1 小时。（离线存储时间已满）\n游戏已经从 $2 版本 更新到 $3 版本'],
     [/^Welcome back, you were away for (.+) days (.+) hours\nGame have been updated from (.+) to (.+)\n\(Game loaded after (.+) seconds\)$/, '欢迎回来，您离开了 $1 天 $2 小时\n游戏已从 $3 更新到 $4\n（游戏在 $5 秒后加载）'],
     [/^Welcome back, you were away for (.+) hours. \(Your offline time storage is full\)\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 小时。（你的离线存储时间已满）\n当前版本是 $2'],
+    [/^Welcome to \'Fundamental\' (.+), a test-project created by awWhy\n\(This idle game is not meant to be fast\)\n\(Game loaded after (.+) seconds\)$/, '欢迎来到“Fundamental” $2，这是一个由 awWhy 创建的测试项目\n（这个放置游戏并不意味着很快）\n（游戏在 $2 秒后加载）'],
     [/^This save is (.+) hours old.\nSave file version is (.+)$/, '此存档的导出时间是 $1 小时前。\n保存文件版本为 $2'],
     [/^This save is (.+) seconds old.\nSave file version is (.+)$/, '此存档的导出时间是 $1 秒前。\n保存文件版本为 $2'],
     [/^This save is (.+) days old. Save file version is (.+)$/, '此存档的导出时间是 $1 天前。保存文件版本为 $2'],
