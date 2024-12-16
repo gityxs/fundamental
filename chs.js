@@ -1463,6 +1463,7 @@ var cnRegReplace = new Map([
     [/^([\d\.,]+) elves$/, '$1 精灵'],
     [/^([\d\.,]+) Mass.$/, '$1 质量.'],
     [/^([\d\.,]+) Drops.$/, '$1 水滴.'],
+    [/^Unlocked at ([\d\.,]+) Universes:$/, '解锁于 $1 宇宙:'],
     [/^\*(.+) to electricity gain$/, '\*$1 到电力增益'],
     [/^Need: (.+) Preons$/, '需要：$1 先子'],
     [/^Need: (.+) Elements$/, '需要：$1 元素'],
