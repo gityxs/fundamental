@@ -229,8 +229,10 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 #alertMain > div {
     display: flex;
     flex-direction: column;
-    width: clamp(18vw, 24rem, 80vw);
-    height: clamp(16vh, 20rem, 90vh);
+    width: 24rem;
+    max-width: 80vw;
+    height: 20rem;
+    max-height: 90vh;
     background-color: var(--window-color);
     border: 2px solid var(--window-border);
     border-radius: 10px;
@@ -311,13 +313,13 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
     padding: 0.2em 0.4em;
     text-align: center;
     white-space: pre-line;
-    width: clamp(25vw, 29rem, 95vw);
+    width: clamp(20vw, 29rem, 95vw);
     overflow-wrap: break-word;
     pointer-events: auto;
     cursor: pointer !important;
 }
 
-#notifications > p:not(:first-of-type) { margin-top: -1px; }
+#notifications > p:not(:first-of-type) { margin-top: -2px; }
 
 .hasTitle { cursor: help; }
 label { cursor: pointer !important; }
@@ -334,8 +336,8 @@ button, input { appearance: none; }
 }
 
 .toggleNormal, .toggleConfirm, .toggleHover, .toggleMax, .toggleAuto, .specialToggle {
-    color: var(--green-text);
-    border-color: forestgreen;
+    color: var(--red-text);
+    border-color: crimson;
     background-color: var(--background-color);
 }
 
@@ -436,7 +438,7 @@ input:-webkit-autofill { /* Chrome related pain */
     border: 2px solid var(--window-border);
     border-radius: 7px;
     width: max-content;
-    max-width: min(55em, 90vw);
+    max-width: min(55em, 100vw);
     padding: 0.2em 0.5em 0.3em;
     margin-top: 0.5em;
     margin-left: 0.5em;
@@ -597,7 +599,7 @@ input:-webkit-autofill { /* Chrome related pain */
 }
 
 #buildingToggles div { position: relative; }
-#toggleBuilding0 { margin-left: 0.3em; }
+#toggleAll { margin-left: 0.3em; }
 
 #stageInfo > div {
     display: flex;
@@ -991,7 +993,7 @@ input.elementType3.created, .elementType3.awaiting:hover { background: #0000c1; 
     display: flex;
     flex-direction: column;
     background-color: #01003c;
-    border: 2px solid #5300c1;
+    border: 2px solid #6500e0;
     border-radius: 4px;
     padding: 0.5em;
     gap: 0.5em;
@@ -1023,7 +1025,7 @@ input.elementType3.created, .elementType3.awaiting:hover { background: #0000c1; 
     padding: 0.5em 0.6em 0.6em;
     row-gap: 0.4em;
     background-color: #01003c;
-    border: 2px solid #5300c1;
+    border: 2px solid #6500e0;
     border-radius: 7px;
     min-width: min-content;
     max-width: 30em;
@@ -1089,6 +1091,12 @@ input.elementType3.created, .elementType3.awaiting:hover { background: #0000c1; 
     background-color: #4d0000;
     color: var(--red-text);
     border-color: darkred;
+}
+
+#inflationMilestones > #inflationSupervoid {
+    background-color: #01003c;
+    color: var(--darkviolet-text);
+    border-color: #6500e0;
 }
 
 #settingsSubtabSettings {
@@ -1321,15 +1329,29 @@ li .hollowButton {
 #historyMainDiv h3 { margin-bottom: 0.24em; }
 
 #historyMainDiv ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     list-style-type: none;
     overflow-y: overlay;
     overscroll-behavior-y: none;
-    margin: 0.5em 0;
+    margin: 0.4em 0;
     padding: 0 1em;
-    height: 7.5em;
+    height: 12em;
     max-height: 70vh;
     resize: vertical;
+    white-space: pre-line;
 }
+
+#historyMainDiv li {
+    padding: 2px 0;
+    border-bottom: 1px dashed;
+}
+
+#endHistory li { border-bottom-color: var(--red-text); }
+#stageHistory li { border-bottom-color: var(--stage-text); }
+
+#historyMainDiv p { white-space: pre-line; }
 
 #historyMainDiv input {
     height: 1.7em;
@@ -1364,7 +1386,7 @@ li .hollowButton {
 .statsWindows p { margin-bottom: 0.08em; }
 
 #strangeAllStats > section { border-color: darkgreen; }
-#inflatonStat > section { border-color: #7100ff; }
+#inflatonStat > section { border-color: #6500e0; }
 
 #energyGainStats > div {
     display: flex;
