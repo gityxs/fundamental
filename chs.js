@@ -3195,7 +3195,7 @@ var cnRegReplace = new Map([
     [/^Melt the core to increase Accretion speed.\n\(Cosmic dust strength will be increased by (.+)\)$/, '融化核心以提升吸积速度。\n（宇宙尘埃强度提升至 $1 倍）'],
     [/^Allow for Star clusters to be boosted by \('Gravity' \/ 200000\) \^0.8 \+ 1.\n\(Boost is equal to (.+)\)$/, '允许星团被加成至 (“重力”/200000)^0.8+1 倍。\n（加成等于：$1）'],
     [/^Allow for Star clusters to be boosted by \('Gravity' \/ 200000\) \^0.5 \+ 1.\n\(Boost is equal to (.+)\)$/, '允许星团被加成至 (“重力”/200000)^0.5+1 倍。\n（加成等于：$1）'],
-    [/^Gain ability to convert Drops into Clouds. Cloud gain formula: \(Drops \/ (.+)\) \^(.+), gain is reduced with Clouds.$/, '获得将水滴转换成云的能力。云的获取公式：(水滴/$1^$2，获取随云的增多而减少。'],
+    [/^Gain ability to convert Drops into Clouds. Cloud gain formula: \(Drops \/ (.+)\) \^(.+), gain is reduced with Clouds.$/, '获得将水滴转换成云的能力。云的获取公式：(水滴/$1)^$2，获取随云的增多而减少。'],
     [/^Create new Atomic nuclei with Neutron capture \(s-process and r-process\).\nUnlocks (.+) more Elements \(\+1 for every self-made Universe\).$/, '通过中子捕获创造新的原子核（s-过程和r-过程）。\n解锁 $1 个新元素（每个自建宇宙 +1）。'],
     [/^Create new Atomic nuclei with Antineutron capture \(s-process and r-process\).\nUnlocks (.+) more Elements \(\+1 for every basic self-made Universe\).$/, '通过反中子捕获创造新的原子核（s-过程和r-过程）。\n解锁 $1 个新元素（每个基础自建宇宙 +1）。'],
     [/^Create new Atomic nuclei with Antineutron capture \(s-process and r-process\).\nUnlocks (.+) more Elements \(\+1 for every Void Universe\).$/, '通过反中子捕获创造新的原子核（s-过程和r-过程）。\n解锁 $1 个新元素（每个虚空宇宙 +1）。'],
