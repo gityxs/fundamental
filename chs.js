@@ -157,6 +157,7 @@ var cnItems = {
     "Improve effect scaling of 'Planetary system', as well increase its max level by +3.": "提高“行星系统”的效果缩放比例，并将其最大等级提高 +3。",
     "Just another tetravalent metalloid, and so is another 1.4x boost to all Stars.": "只是另一种四价非金属，所有星球的另外 1.4 倍提升也是如此。",
     "Just another tetravalent metalloid, and so is another 1.4x boost to Interstellar Stars and Cosmic dust.": "只是另一种四价非金属，星际星球和宇宙尘埃生产的另外 1.4 倍提升也是如此。",
+    "Just another tetravalent metalloid, and so is another 1.4x boost to Interstellar Stars.": "只是另一种四价非金属，星际星球的另外 1.4 倍提升也是如此。",
 
     //深渊的
     "End":"终结",
@@ -592,6 +593,8 @@ var cnItems = {
     "A new color, and a new boost to Mass gain that is based on current Dwarf Stars.": "一种新的颜色，以及基于当前矮星的质量获取的新提升。",
     "A new color and a new additive boost to the base of Solar mass gain base  (and delay to the Cosmic dust hardcap) that is based on self-made Brown dwarfs.":
     "一种新的颜色，以及基于自建褐矮星的太阳质量获取基数（和对宇宙尘埃硬上限的延迟）的新加成提升。",
+    "A new color and a new additive boost to the base of Solar mass gain base  that is based on self-made Brown dwarfs.":
+    "一种新的颜色，以及基于自建褐矮星的太阳质量获取基数的新加成提升。",
     "Base for organics, boost from Red giants is now increased to the power of 1.5.\nRed giants effect is now known - boost to all Main-sequence stars.": "有机物的基础，来自红巨星的提升现在增加到原来的 1.5 次方。\n红巨星效应现在已知 - 提升所有主序星。",
     "Brittle earth metal, so is brittle increase to production. (1.1x to all Stars)": "脆性土金属，所以是脆性增加生产。 （1.1 倍于所有星球）",
     "Current subtab is Elements, part of research tab": "当前子选项卡是元素，研究选项卡的一部分",
@@ -815,8 +818,9 @@ var cnItems = {
     "Less noble boost, but Black holes effect scales a little better.\nBlack holes effect is now known - boost to Solar mass gain.": "不太高贵的提升，但黑洞效果增长好一点。\n黑洞影响现在已知 - 提升太阳质量增益。",
     "Number is 14, group is 14, melts at 1414°C and so is Mass gain increased by 1.4.": "编号为 14，组为 14，熔点为 1414°C，所以质量获取增加至 1.4 倍。",
     "Offline storage capacity.": "离线存储容量。",
-    "One of the Fundamentals of Life and to make all of Stars boost Mass.": "生命的基本原理之一，并使所有的星球都加成质量。",
-    "One of the Fundamentals for Life and to make all Stars boost Solar mass gain.": "生命的基本原理之一，并使所有的星球都加成太阳质量获取。",
+    "One of the Fundamentals of Life and to make all of Stars boost Mass.": "生命的基础之一，并使所有的星球都加成质量。",
+    "One of the Fundamentals for Life and to make all Stars boost Solar mass gain.": "生命的基础之一，并使所有的星球都加成太阳质量获取。",
+    "One of the fundamentals for Life and to make all self-made Stars to boost Solar mass gain.": "生命的基础之一，并使所有自建的星球都加成太阳质量获取。",
     "Research this to increase capacity of Offline storage by +4 hours.": "对此进行研究以将离线存储容量增加 +4 小时。",
     "Structure Automation.": "结构自动化。",
     "A new Intergalactic Structure.": "一个新的星系际结构。",
@@ -1437,6 +1441,7 @@ var cnItems = {
     "Brittle earth metal and so is the brittle increase to the production.\n(1.4x boost to all Stars and Cosmic dust)":"脆的碱土金属，所以这是它带来的对生产速率的“脆脆的”提升。\n（所有星球和宇宙尘埃的生产速度乘 1.4）",
     "Brittle earth metal and so is the brittle increase to the production.\n(1.4x boost to all Stars)":"脆的碱土金属，所以这是它带来的对生产速率的“脆脆的”提升。\n（所有星球的生产速度乘 1.4）",
     "Brittle earth metal and so is the brittle increase to the production.\n(1.4x boost to Interstellar Stars and Cosmic dust)":"脆的碱土金属，所以这是它带来的对生产速率的“脆脆的”提升。\n（星际星球和宇宙尘埃的生产速度乘 1.4）",
+    "Brittle earth metal and so is the brittle increase to the production.\n(1.4x boost to Interstellar Stars)":"脆的碱土金属，所以这是它带来的对生产速率的“脆脆的”提升。\n（星际星球的生产速度乘 1.4）",
     "Base for organics, it will increase the boost from Red giants by ^1.5.":"有机物的基础，它会将红巨星带来的增益提升为原来的 ^1.5。",
     "Base for organics, it will increase the boost from Red giants by ^2.":"有机物的基础，它会将红巨星带来的增益提升为原来的 ^2。",
     "Nothing special, just an 1.21x decrease to Galaxies cost.":"没什么特别的，只是使星系价格除以 1.21.",
@@ -1467,6 +1472,7 @@ var cnItems = {
     "Star clusters:":"星团：",
     "Stars are inside you, as well Neutron stars strength will be increased by log4.":"星星与你融为一体，同时中子星增强至原来的 log4 倍。",
     "Stars are inside you, as well Antineutron stars will improve themselves by log4 of their own amount.":"星星与你融为一体，同时反中子星自己改进自己至原来的 log4 倍。",
+    "Stars are inside you, as well Neutron stars will improve themselves by log4 of their own amount.":"星星与你融为一体，同时中子星自己改进自己至原来的 log4 倍。",
     "Spreads water too fast. 1 extra Sea per Ocean.\nIt will also improve Oceans effect scaling.":"水散布得太快了。每个海洋提供一个额外大海。\n还能提升海洋效果的增长。",
     "Spreads enough water to make Seas increase current Lake amount. (1 extra Lake per Sea)":"散布了足够多的水来让大海提升当前湖泊数量。（每个大海 1 个额外湖泊）",
     "Spreads enough water to make Seas increase current Lake amount. (2 extra Lakes per Sea)":"散布了足够多的水来让大海提升当前湖泊数量。（每个大海 2 个额外湖泊）",
@@ -1544,6 +1550,7 @@ var cnItems = {
     "Collapse Researches (Special)":"坍缩研究（特殊）",
     "Galaxy Researches (Special)":"星系研究（特殊）",
     "Can reset 1 more time":"还能重置 1 次",
+    "Has a great affinity towards Oxygen and to decrease cost of Interstellar Stars by 100.": "与氧亲和性良好，将降低星际星球的花费至 100 分之一。",
     "Has a great affinity towards Oxygen and to decrease cost of all Stars by 100.": "与氧亲和性良好，将降低所有星球的花费至 100 分之一。",
     "Don't forget about it and it will increase effective level of 'Planetary system' by +1.":"不要忘记它，它将“行星系统”的有效等级 +1。",
     "An oxidizing agent that will make Interstellar Stars cost scale even slower. (-0.05 less)":"一个使星际的星球价格增长减慢的氧化剂。（蠕变 -0.05）",
@@ -1869,8 +1876,12 @@ var cnItems = {
     "解锁一个新的升级，它很棒。\n（当前解锁：无）",
     "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', ~1e54 Stardust Upgrade ‒ 'Antihelium fusion'.":
     "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，约 1e54 星尘的升级 - “反氦聚变”。",
+    "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', ~1e54 Stardust Upgrade ‒ 'Helium fusion'.":
+    "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，约 1e54 星尘的升级 - “氦聚变”。",
     "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', ~1e52 Stardust Upgrade ‒ 'Antihelium fusion'.":
     "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，约 1e52 星尘的升级 - “反氦聚变”。",
+    "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', ~1e52 Stardust Upgrade ‒ 'Helium fusion'.":
+    "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，约 1e52 星尘的升级 - “氦聚变”。",
     "Always automatically create all Special Researches from any Stage.\n(Needs to be enabled in Settings, unlocked automatization: auto Upgrades, Stage and Special Researches)":
     "总是自动创建任何阶段的所有特殊研究。\n（需要在设置中启用，已解锁的自动化：自动升级，自动阶段研究，自动特殊研究）",
     "Always automatically create all Special Researches from any Stage.\n(Needs to be enabled in Settings, unlocked automatization: auto Upgrades, Stage Researches)":
@@ -2045,6 +2056,10 @@ var cnItems = {
     "当创建前子时，不会损失质量，只在吸积阶段已解锁时生效。\n第 2 级会禁用自动吸积结构，如果宇宙尘埃达到硬上限，直到有足够的质量来进行最大太阳质量转换或者提升当前等阶，如果等阶在“原星”之下并且“自动等阶”达到等级 2，只在星际阶段解锁生效。。",
     "Combined and ready to make all self-made Red supergiants count as Red giants and improve '[24] Chromium' Element by +^0.01.": "结合并准备好了使所有自建红超巨星被计入红巨星，并提升 [24]铬 元素的指数 0.01。",
     "Combined and ready to make Red giants effect improve Brown dwarfs.\nAlso improves '[24] Antichromium' Element by +^0.01.": "结合并准备好了使所有红巨星改进棕矮星，并提升 [24]反铬 元素的指数 0.01。",
+    "Combined and ready to make Red giants effect improve Brown dwarfs.\nAlso improves '[24] Chromium' Element by +^0.01.": "结合并准备好了使所有红巨星改进棕矮星，并提升 [24]铬 元素的指数 0.01。",
+    
+    "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Copper'.\n(Currently highest created Element in the current Stage reset is '[29] Copper', equals to +0 allowed Merges)": 
+    "新来的第一个元素，每个 [29]铜 之后的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [29]铜，等于 +0 次允许的合并）",
     "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Copper'.\n(Currently highest created Element in the current Stage reset is '[30] Zinc', equals to +1 allowed Merges)": 
     "新来的第一个元素，每个 [29]铜 之后的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [30]锌，等于 +1 次允许的合并）",
     "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Copper'.\n(Currently highest created Element in the current Stage reset is '[31] Galium', equals to +2 allowed Merges)": 
@@ -2059,6 +2074,8 @@ var cnItems = {
     "新来的第一个元素，每个 [29]铜 之后的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [35]溴，等于 +6 次允许的合并）",
     "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Copper'.\n(Currently highest created Element in the current Stage reset is '[36] Krypton', equals to +7 allowed Merges)": 
     "新来的第一个元素，每个 [29]铜 之后的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [36]氪，等于 +7 次允许的合并）",
+    "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Copper' until 'undefined'.\n(Currently highest created Element in the current Stage reset is '[29] Copper', equals to +0 allowed Merges)": 
+    "新来的第一个元素，每个 [29]铜 之后 未定义 之前的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [29]铜，等于 +0 次允许的合并）",
     "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Copper' until 'undefined'.\n(Currently highest created Element in the current Stage reset is '[30] Zinc', equals to +1 allowed Merges)": 
     "新来的第一个元素，每个 [29]铜 之后 未定义 之前的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [30]锌，等于 +1 次允许的合并）",
     "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Copper' until 'undefined'.\n(Currently highest created Element in the current Stage reset is '[31] Galium', equals to +2 allowed Merges)": 
@@ -2073,6 +2090,8 @@ var cnItems = {
     "新来的第一个元素，每个 [29]铜 之后 未定义 之前的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [35]溴，等于 +6 次允许的合并）",
     "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Copper' until 'undefined'.\n(Currently highest created Element in the current Stage reset is '[36] Krypton', equals to +7 allowed Merges)": 
     "新来的第一个元素，每个 [29]铜 之后 未定义 之前的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [36]氪，等于 +7 次允许的合并）",
+    "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Anticopper'.\n(Currently highest created Element in the current Stage reset is '[29] Anticopper', equals to +0 allowed Merges)": 
+    "新来的第一个元素，每个 [29]反铜 之后的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [29]反铜，等于 +0 次允许的合并）",
     "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Anticopper'.\n(Currently highest created Element in the current Stage reset is '[30] Antizinc', equals to +1 allowed Merges)": 
     "新来的第一个元素，每个 [29]反铜 之后的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [30]反锌，等于 +1 次允许的合并）",
     "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Anticopper'.\n(Currently highest created Element in the current Stage reset is '[31] Antigalium', equals to +2 allowed Merges)": 
@@ -2087,6 +2106,8 @@ var cnItems = {
     "新来的第一个元素，每个 [29]反铜 之后的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [35]反溴，等于 +6 次允许的合并）",
     "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Anticopper'.\n(Currently highest created Element in the current Stage reset is '[36] Antikrypton', equals to +7 allowed Merges)": 
     "新来的第一个元素，每个 [29]反铜 之后的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [36]反氪，等于 +7 次允许的合并）",
+    "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Anticopper' until 'undefined'.\n(Currently highest created Element in the current Stage reset is '[29] Anticopper', equals to +0 allowed Merges)": 
+    "新来的第一个元素，每个 [29]反铜 之后 未定义 之前的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [29]反铜，等于 +0 次允许的合并）",
     "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Anticopper' until 'undefined'.\n(Currently highest created Element in the current Stage reset is '[30] Antizinc', equals to +1 allowed Merges)": 
     "新来的第一个元素，每个 [29]反铜 之后 未定义 之前的新元素都会提升最大合并次数 1 次。\n（这次阶段重置的当前最大被创建元素是 [30]反锌，等于 +1 次允许的合并）",
     "First of new Elements to come, increases max allowed Merge resets by +1 for every new Element past '[29] Anticopper' until 'undefined'.\n(Currently highest created Element in the current Stage reset is '[31] Antigalium', equals to +2 allowed Merges)": 
@@ -2247,6 +2268,7 @@ var cnItems = {
     "Quantum Vacuum":"量子真空",
     "Remaining time is":"剩余时间为",
     "‒ Doesn't count as a Challenge\n‒ Disables Big Crunches":"‒ 不作为挑战\n‒ 禁用大收缩",
+    "‒ Doesn't count as a Challenge\n‒ Disables Big Crunches while active":"‒ 不作为挑战\n‒ 激活时禁用大收缩",
     "Carbon-Nitrogen-Oxygen cycle.": "碳-氮-氧循环。",
     "Unlock 5 more Elements through the CNO cycle, which is also is a better source of Helium and ": "通过碳氮氧循环解锁 5 个新元素，这也是一个更好的来源，产生氦和",
     "Anticarbon-Antinitrogen-Antioxygen cycle.":"反碳-反氮-反氧循环。",//这啥……不会这一版改了一堆这种东西要翻吧
@@ -2363,6 +2385,7 @@ var cnItems = {
     "Strangelets,": "奇异粒，",
     "Entered the Void":"进入虚空",
     "Exited the Void":"退出虚空",
+    "Automatically exited the Void":"自动退出虚空",
     "No Stage resets available": "没有可用的阶段重置",
     "Make Intergalactic Stage immune to Collapse reset.": "使星系际阶段免疫坍缩重置。",
     "Requires true Vacuum state": "需要真真空状态",
@@ -2406,7 +2429,9 @@ var cnItems = {
     "Unlocked new type of Intergalactic Researches and a new Milestone.":"解锁了新的星系际研究类型和一个新的里程碑。",
     "Solar mass if had pending Black holes": "如果拥有当前能够获取的黑洞的太阳质量",
     "First metal, base for Solar mass gain and delay to the Cosmic dust hardcap from Brown dwarfs will be lightly increased.\n(Additive, boost is equal to 1.5x when nothing else boosting it)":
-     "第一个金属，太阳质量获取的基础和来自棕矮星的宇宙尘埃硬上限的延迟将被轻微增加。\n（以及，当没有其他加成时加成为 1.5 倍）",
+     "第一个金属，来自棕矮星的太阳质量获取的基数和宇宙尘埃硬上限的延迟将被轻微增加。\n（以及，当没有其他加成时加成为 1.5 倍）",
+    "First metal, base for Solar mass gain from Brown dwarfs will be lightly increased.\n(Additive, boost is equal to 1.5x when nothing else boosting it)":
+     "第一个金属，来自棕矮星的太阳质量获取的基数将被轻微增加。\n（以及，当没有其他加成时加成为 1.5 倍）",
 
     "1000 Dark energy allows to do a more advanced End reset ‒ 'Big Rip', this one just adds non-self-made Universes into Cosmons gain base.\n(Doing it for the first time will also unlock new Inflation and ability to create new types of self-made Universes)":
     "1000 暗能量允许进行更高级的终结重置 ‒ '大撕裂'，这个重置只是将非自建宇宙加入宇宙子获取基础。\n（第一次进行它还将解锁新的膨胀和创建新类型自建宇宙的能力）",
@@ -2463,6 +2488,7 @@ var cnItems = {
     "Milestone 'Center of gravity' new tier completed":"里程碑“质量中心”完成了新级别",
     "Milestone 'Distant Clouds' new tier completed":"里程碑“遥远的云”完成了新级别",
     "New Void reward unlocked:\n'Antineutronium' (Interstellar)":"新虚空奖励解锁：\n'反中子素'（星际）",
+    "New Void reward unlocked:\n'Neutronium' (Interstellar)":"新虚空奖励解锁：\n'中子素'（星际）",
     "New Void reward unlocked:\n'Automatic Merge' (Intergalactic)":"新虚空奖励解锁：\n'自动合并'（星系际）",
     "New Void reward unlocked:\n'Conservation of Energy' (Microworld)":"新虚空奖励解锁：\n'保留能量'（微世界）",
     "New Void reward unlocked:\n'Conservation of Mass' (Microworld)":"新虚空奖励解锁：\n'保留质量'（微世界）",
@@ -2483,8 +2509,10 @@ var cnItems = {
     "New Void reward unlocked:\nNew Abyss themed Strangeness":"新虚空奖励解锁：\n新的深渊主题奇异升级",
     "Entered the Vacuum stability": "进入真空稳定性",
     "Exited the Vacuum stability": "退出真空稳定性",
+    "Automatically exited the Vacuum stability": "自动退出真空稳定性",
     "Entered the Supervoid": "进入超级虚空",
     "Exited the Supervoid": "退出超级虚空",
+    "Automatically exited the Supervoid": "自动退出超级虚空",
     "Deactivated the Darkness": "取消激活了黑暗",
     "Activated the Darkness": "激活了黑暗",
     "No Mass will be lost when creating Preons, only works when Accretion Stage is unlocked.\nSecond level will disable auto Accretion Structures while Cosmic dust is hardcapped and don't have enough Mass for the highest Solar mass conversion, only works if Interstellar Stage is unlocked.":
@@ -2498,6 +2526,39 @@ var cnItems = {
      "解锁了一个新的重置类型，它会使星系靠近来进行可能的合并。",
     "Drops will produce Moles 3 times more.": "水滴生产 3 倍的摩尔。",
     "Puddles will produce 2 times more ": "水坑产生 2 倍的",
+    "Increase max allowed non-safe Merge resets by +current relevant self-made Universes, every Merge reset above safe value adjusts cost for the next Universe.\nAlso stabilize false Vacuum, allow creation of false Universes and add new effect for false Vacuum 'Void Milestones'.\nFor true Vacuum it will instead also make Strangelets produce themselves.":
+     "将允许的非安全合并重置的最大值增加当前相关自建宇宙数，每次超过安全值的合并重置都会调整下一个宇宙的成本。\n还稳定假真空，允许创建假宇宙，并为假真空的“虚空里程碑”添加新的效果。\n对于真真空，它将使奇异粒能够产生奇异粒。",
+    ", ignored if unlocked passive": "，如果已解锁被动则忽略",
+    "Structures,": "结构，",
+    "Dark": "暗",
+    "Effective":"有效的",
+    "energy":"能量",
+    "energy:":"能量：",
+    "fluid":"流体",
+    "fluid gain":"流体增益",
+    "fluid:":"流体：",
+    "matter softcap starts at": "物质软上限开始于",
+    "Safe)": "安全）",
+    "Stage reset has been forced":"强制进行阶段重置",
+    "Boost to Brown dwarfs, Main-sequence":"对棕矮星、主序星的增益",
+    "Boost to Interstellar Stars":"对星际星球的增益",
+    "Boost and cost decrease to Interstellar Stars":"对星际星球的增益和成本削减",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
     "": "",
     "": "",
     "": "",
@@ -3134,13 +3195,19 @@ var cnRegReplace = new Map([
     [/^Boost global speed by unspent Dark matter \^(.+).\n\(Boost per level: (.+), softcaps after 1e8 Dark matter\)$/, '基于未花费的暗物质^$1 提升全局速度。\n（每级的提升：$2，在 1e8 暗物质时达到软上限）'],
     [/^Improve 'Impulse' base strength even more.\n\(This will increase total boost by (.+)\)$/, '更多地提升“脉冲”的基数。\n（这将会使总提升增长 $1）'],
     [/^Unspent Strange quarks will boost Accretion by making its Structures cheaper.\n\(Formula: Strange quarks \^0.68 \| Effect: (.+)\)$/, '未使用的奇异夸克增益吸积阶段，使其中的结构价格成倍降低。\n（公式：奇异夸克数^0.68 | 效果：$1）'],
+    [/^Unspent Strange quarks will boost Accretion by reducing cost of its Structures.\n\(Formula: Strange quarks \^0.68 \| Effect: (.+)\)$/, '未使用的奇异夸克增益吸积阶段，使其中的结构价格成倍降低。\n（公式：奇异夸克数^0.68 | 效果：$1）'],
     [/^Unspent Strange quarks will boost Intergalactic by increasing Solar mass gain.\n\(Formula: Strange quarks \^0.06 \| Effect: (.+)\)$/, '未使用的奇异夸克增益星系际阶段，使其中的太阳质量获取成倍增长。\n（公式：奇异夸克数^0.06 | 效果：$1）'],
     [/^Unspent Strange quarks will boost Interstellar by improving all Stars.\n\(Formula: Strange quarks \^\(0.16 or 0.32, if '\[26\] Iron' is created\) \| Effect: (.+)\)$/, '未使用的奇异夸克增益星际阶段，使所有星球成倍加速。\n（公式：奇异夸克数^(0.16 或 0.32，如果 [26]铁 已经被创建了) | 效果：$1）'],
+    [/^Unspent Strange quarks will boost Interstellar by improving its Structures.\n\(Formula: Strange quarks \^0.32, exponent is 2 times bigger with '\[26\] Iron' \| Effect: (.+)\)$/, '未使用的奇异夸克增益星际阶段，使其中所有结构成倍加速。\n（公式：奇异夸克数^0.32，指数在 [26]铁 被创建后变为原来的 2 倍 | 效果：$1）'],
+    [/^Unspent Strange quarks will boost Interstellar by improving its Structures.\n\(Formula: Strange quarks \^0.32, exponent is 2 times bigger with '\[26\] AntiIron' \| Effect: (.+)\)$/, '未使用的奇异夸克增益星际阶段，使其中所有结构成倍加速。\n（公式：奇异夸克数^0.32，指数在 [26]铁 被创建后变为原来的 2 倍 | 效果：$1）'],
     [/^Unspent Strange quarks will boost Microworld by improving its Structures.\n\(Formula: Strange quarks \^(.+) \| Effect: (.+)\)$/, '未使用的奇异夸克增益微观世界阶段，使其中的结构成倍加速。\n（公式：奇异夸克数^$1 | 效果：$2）'],
     [/^Unspent Strange quarks will boost Submerged by improving Puddles.\n\(Formula: Strange quarks \^(.+) \| Effect: (.+)\)$/, '未使用的奇异夸克增益湮没阶段，使水坑成倍加速。\n（公式：奇异夸克数^$1 | 效果：$2）'],
     [/^Total Strange quarks will boost Accretion by making its Structures cheaper.\n\(Formula: Strange quarks \^0.68 \| Effect: (.+)\)$/, '总的奇异夸克增益吸积阶段，使其中的结构价格成倍降低。\n（公式：奇异夸克数^0.68 | 效果：$1）'],
+    [/^Total Strange quarks will boost Accretion by reducing cost of its Structures.\n\(Formula: Strange quarks \^0.68 \| Effect: (.+)\)$/, '总的奇异夸克增益吸积阶段，使其中的结构价格成倍降低。\n（公式：奇异夸克数^0.68 | 效果：$1）'],
     [/^Total Strange quarks will boost Intergalactic by increasing Solar mass gain.\n\(Formula: Strange quarks \^0.06 \| Effect: (.+)\)$/, '总的奇异夸克增益星系际阶段，使其中的太阳质量获取成倍增长。\n（公式：奇异夸克数^0.06 | 效果：$1）'],
     [/^Total Strange quarks will boost Interstellar by improving all Stars.\n\(Formula: Strange quarks \^\(0.16 or 0.32, if '\[26\] Iron' is created\) \| Effect: (.+)\)$/, '总的奇异夸克增益星际阶段，使所有星球成倍加速。\n（公式：奇异夸克数^(0.16 或 0.32，如果 [26]铁 已经被创建了) | 效果：$1）'],
+    [/^Total Strange quarks will boost Interstellar by improving its Structures.\n\(Formula: Strange quarks \^0.32, exponent is 2 times bigger with '\[26\] Iron' \| Effect: (.+)\)$/, '总的奇异夸克增益星际阶段，使其中所有结构成倍加速。\n（公式：奇异夸克数^0.32，指数在 [26]铁 被创建后变为原来的 2 倍 | 效果：$1）'],
+    [/^Total Strange quarks will boost Interstellar by improving its Structures.\n\(Formula: Strange quarks \^0.32, exponent is 2 times bigger with '\[26\] AntiIron' \| Effect: (.+)\)$/, '总的奇异夸克增益星际阶段，使其中所有结构成倍加速。\n（公式：奇异夸克数^0.32，指数在 [26]铁 被创建后变为原来的 2 倍 | 效果：$1）'],
     [/^Total Strange quarks will boost Microworld by improving its Structures.\n\(Formula: Strange quarks \^0.26 \| Effect: (.+)\)$/, '总的奇异夸克增益微观世界阶段，使其中的结构成倍加速。\n（公式：奇异夸克数^0.26 | 效果：$1）'],
     [/^Total Strange quarks will boost Submerged by improving Puddles.\n\(Formula: Strange quarks \^0.22 \| Effect: (.+)\)$/, '总的奇异夸克增益湮没阶段，使水坑成倍加速。\n（公式：奇异夸克数^0.22 | 效果：$1）'],
     [/^Unlock 1 minute Warps for the price of (.+) ⟶ (.+) minutes of stored Offline time.\nIncrease Export storage by \+(.+)% ⟶ (.+)% of the Stage reset value after any Stage reset.\nIf inside any Challenge, then it will boost global speed by (.+) ⟶ (.+), but decrease time limit by (.+) ⟶ (.+).\n\(Offline time can be stored by rejecting it, max storage is (.+) hours\)$/,
@@ -3169,6 +3236,7 @@ var cnRegReplace = new Map([
     [/^Decrease Drops requirement to get a Cloud by (.+).$/, '降低获取云的水滴要求至原来的 $1 分之一。'],
     [/^Black holes effect increased by (.+).$/, '黑洞效果提升至 $1 倍。'],
     [/^Boost per Galaxy is increased by \+(.+).$/, '增加星系基数 $1。'],
+    [/^No corrosion, only boost to Interstellar Stars that is based on unspent Stardust \^(.+).\n\(Boost to Stars: (.+)\)$/, '没有腐蚀性，只是基于未花费的星尘^$1 增益星际星球。\n（对星球的增益：$2）'],
     [/^No corrosion, only boost to all Stars that is based on unspent Stardust \^(.+).\n\(Boost to Stars: (.+)\)$/, '没有腐蚀性，只是基于未花费的星尘^$1 增益所有星球。\n（对星球的增益：$2）'],
     [/^Catalyst for production of Stardust. 'Gamma-ray burst' effect will be increased by Solar mass \^0.1.\n\(Effect increase: (.+)\)$/, '星辰生产的催化剂。“伽玛射线暴”的效果被太阳质量^0.1 提升。\n（效果提升：$1）'],
     [/^Delay Dark matter softcap by current Dark energy \^\(0.5 \* level\).\n\(Current delay: (.+) ⟶ (.+)\)$/, '延迟暗物质软上限至 当前暗物质^(0.5*等级) 倍。\n（当前延迟：$1 ⟶ $2）'],
@@ -3518,11 +3586,16 @@ var cnRegReplace = new Map([
         '如果资源达到花费的 $1 倍，自动创建星团（计入自建）。\n（解锁的自动结构：星云）'],
     [/^Automatically make Nebulas \(counts as self-made\) if cost is (.+) times of the available resources.\n\(Unlocked auto Structures: none\)$/, 
         '如果资源达到花费的 $1 倍，自动创建星云（计入自建）。\n（解锁的自动结构：无）'],
+        
+    [/^Any further fusion will be an endothermic process, but will still allow to enter Intergalactic space.\nCurrent base increase for Stage reset reward is \+(.+), which is equal to log10\(Stardust produced this Stage\) - 48.$/, 
+        '任何进一步的聚变都将是一个吸热过程。但这仍然允许进入星系际空间。\n当前阶段重置奖励的基数提升为 +$1，这等于 log10(该阶段生产的星尘)-48。'],
     [/^Any further fusion will be an endothermic process. Unlock a new Star type and Intergalactic Stage.\nCurrent base increase for Stage reset reward is \+(.+), which is equal to log10\(Stardust produced this Stage\) - 48.\n\(Formula doesn't show improvement from '\[29\] Copper', but base increase does\)$/, 
         '任何进一步的聚变都将是一个吸热过程。解锁一个新的星球类型和星系际阶段。\n当前阶段重置奖励的基数提升为 +$1，这等于 log10(该阶段生产的星尘)-48。\n（公式没有显示来自 [29]铜 的改进，但基数加成存在）'],
     [/^Drops will improve Tritium (.+) times more for every self-made Drop.$/, '每个自建水滴改进氚至 $1 倍。'],
     [/^Drops will improve Antitritium (.+) times more for every self-made Drop.$/, '每个自建水滴改进反氚至 $1 倍。'],
     [/^Puddles will produce 2 times more Drops.\nEffective level is (.+), will be restored with more $/, '水坑会生产 2 倍的水滴。\n有效等级为 $1，恢复能力基于'],
+    [/^Any further fusion will be an endothermic process, but will still unlock a new Star type and Intergalactic Stage.\nCurrent base increase for Stage reset reward is \+(.+), which is equal to log10\(Stardust produced this Stage\) - 48.$/, 
+        '任何进一步的聚变都将是一个吸热过程，但还是会解锁一个新的星球类型和星系际阶段。\n当前阶段重置奖励的基数提升为 +$1，这等于 log10(该阶段生产的星尘)-48。'],
     [/^Any further fusion will be an endothermic process, but will still unlock a new Star type and Intergalactic Stage.\nCurrent base increase for Stage reset reward is \+(.+), which is equal to 'X \+ Step \* \(X\^2 - X\) \/ 2', X is log10\(Stardust produced this Stage\) - 48.$/, 
         '任何进一步的聚变都将是一个吸热过程，但还是会解锁一个新的星球类型和星系际阶段。\n当前阶段重置奖励的基数提升为 +$1，这等于 X + Step * (X^2 - X) / 2，其中 X 是 log10(该阶段生产的星尘) - 48。'],
     [/^Any further fusion will be an endothermic process. Enter Intergalactic space.\nCurrent base increase for Stage reset reward is \+(.+), which is equal to log10\(Stardust produced this Stage\) - 48.$/, 
@@ -3653,7 +3726,7 @@ var cnRegReplace = new Map([
     [/^‒ Galaxies scale in cost faster by \+0.01\n‒ Intergalactic Upgrade 'Galactic Merger' cost 1e10 times more\n‒ Merge requirement is set to (.+)$/, 
         '‒ 星系的成本蠕变增加 0.01\n‒ 星际升级“星系合并器”的成本增加 1e10 倍\n‒ 合并要求被置为 $1'],
     [/^Submerge quicker by boosting Puddles, effect is based on Rank.\n\(Current boost: (.+) ⟶ (.+)\)$/, 
-        '通过提升水坑来加速淹没，效果基于等阶。\n（当前加成：$1 ⟶ $2）'],
+        '通过提升水坑来加速湮没，效果基于等阶。\n（当前加成：$1 ⟶ $2）'],
     [/^Unspent Strange quarks will boost Accretion by reducing cost of its Structures.\n\(Formula: Strange quarks \^(.+) \| Effect: (.+)\)$/, 
         '未使用的奇异夸克增益吸积阶段，降低其中结构的成本。\n（公式：奇异夸克数^$1 | 效果：$2）'],
     [/^Unspent Strange quarks will boost Interstellar by improving its Structures.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Antiiron' \| Effect: (.+)\)$/, 
@@ -3720,6 +3793,8 @@ var cnRegReplace = new Map([
     [/^\n\(Boost to Stars: (.+)\)$/, '\n（对星球的加成：$1 ）'],
     [/^Make self-made Structures boost themselves by (.+).\n\(Self-made Preons boost themselves by (.+) instead : , softcaps instantly and gets completely disabled after 1001 Preons\)$/, 
         '使自建结构加成彼此 $1 倍。\n（但自建前子加成彼此 $2 倍，软上限立即生效并在 1001 前子后被完全禁用）'],
+    [/^Make self-made Structures boost themselves by (.+).\n\(Self-made Preons boost themselves by (.+) instead, softcaps instantly and gets completely disabled after 1001 Preons\)$/, 
+        '使自建结构加成彼此 $1 倍。\n（但自建前子加成彼此 $2 倍，软上限立即生效并在 1001 前子后被完全禁用）'],
     [/^Boost global speed by 2, but reduce time limit for on everything that has it by 4, if level is below 2.\nIf there is no time limit, then 2nd level will instead boost global speed by (.+) \(strength depletes over 1 hour of the Stage time\).$/, 
         '全局速度提升 2 倍，但如果等级低于 2，则将所有时间限制减少至 4 分之一。\n如果没有时间限制，则第二级将提升全局速度 $1 倍（在阶段时间的 1 小时内逐渐移除）。'],
     [/^Milestone 'Cluster of Mass' new tier completed \| x(\d+)$/, '里程碑“质量团簇”完成了新级别 | x$1 次'],
@@ -3738,6 +3813,60 @@ var cnRegReplace = new Map([
     [/^Decrease Structures cost scaling by -(.+).$/, '减小结构价格蠕变 $1。'],
     [/^Make self-made Structures boost themselves by (.+).$/, '使自建结构加成彼此 $1 倍。'],
     [/^Requires (.+) Galaxies$/, '需要 $1 个星系'],
+    [/^Stage reset has been forced \| x(.+)$/, '强制进行阶段重置 | x$1 次'],
+    [/^Welcome back, you were away for (.+) years (.+) months\nLast update was (.+) days (.+) hours ago$/, '欢迎回来，你离开了 $1 年 $2 个月\n上次更新是 $3 天 $4 小时前'],
+    [/^Welcome back, you were away for (.+) years (.+) months\nLast update was (.+) months (.+) days ago$/, '欢迎回来，你离开了 $1 年 $2 个月\n上次更新是 $3 个月 $4 天前'],
+    [/^Welcome back, you were away for (.+) years (.+) months\nLast update was (.+) year (.+) month ago$/, '欢迎回来，你离开了 $1 年 $2 个月\n上次更新是 $3 年 $4 个月前'],
+    [/^Welcome back, you were away for (.+) years (.+) months\nLast update was (.+) hours (.+) minutes ago$/, '欢迎回来，你离开了 $1 年 $2 个月\n上次更新是 $3 小时 $4 分钟前'],
+    [/^Welcome back, you were away for (.+) years (.+) months\nLast update was (.+) minutes (.+) seconds ago$/, '欢迎回来，你离开了 $1 年 $2 个月\n上次更新是 $3 分钟 $4 秒前'],
+    [/^Welcome back, you were away for (.+) years (.+) months\nLast update was (.+) seconds ago$/, '欢迎回来，你离开了 $1 年 $2 个月\n上次更新是 $3 秒前'],
+    [/^Welcome back, you were away for (.+) months (.+) days\nLast update was (.+) days (.+) hours ago$/, '欢迎回来，你离开了 $1 个月 $2 天\n上次更新是 $3 天 $4 小时前'],
+    [/^Welcome back, you were away for (.+) months (.+) days\nLast update was (.+) months (.+) days ago$/, '欢迎回来，你离开了 $1 个月 $2 天\n上次更新是 $3 个月 $4 天前'],
+    [/^Welcome back, you were away for (.+) months (.+) days\nLast update was (.+) year (.+) month ago$/, '欢迎回来，你离开了 $1 个月 $2 天\n上次更新是 $3 年 $4 个月前'],
+    [/^Welcome back, you were away for (.+) months (.+) days\nLast update was (.+) hours (.+) minutes ago$/, '欢迎回来，你离开了 $1 个月 $2 天\n上次更新是 $3 小时 $4 分钟前'],
+    [/^Welcome back, you were away for (.+) months (.+) days\nLast update was (.+) minutes (.+) seconds ago$/, '欢迎回来，你离开了 $1 个月 $2 天\n上次更新是 $3 分钟 $4 秒前'],
+    [/^Welcome back, you were away for (.+) months (.+) days\nLast update was (.+) seconds ago$/, '欢迎回来，你离开了 $1 个月 $2 天\n上次更新是 $3 秒前'],
+    [/^Welcome back, you were away for (.+) days (.+) hours\nLast update was (.+) days (.+) hours ago$/, '欢迎回来，你离开了 $1 天 $2 小时\n上次更新是 $3 天 $4 小时前'],
+    [/^Welcome back, you were away for (.+) days (.+) hours\nLast update was (.+) months (.+) days ago$/, '欢迎回来，你离开了 $1 天 $2 小时\n上次更新是 $3 个月 $4 天前'],
+    [/^Welcome back, you were away for (.+) days (.+) hours\nLast update was (.+) year (.+) month ago$/, '欢迎回来，你离开了 $1 天 $2 小时\n上次更新是 $3 年 $4 个月前'],
+    [/^Welcome back, you were away for (.+) days (.+) hours\nLast update was (.+) hours (.+) minutes ago$/, '欢迎回来，你离开了 $1 天 $2 小时\n上次更新是 $3 小时 $4 分钟前'],
+    [/^Welcome back, you were away for (.+) days (.+) hours\nLast update was (.+) minutes (.+) seconds ago$/, '欢迎回来，你离开了 $1 天 $2 小时\n上次更新是 $3 分钟 $4 秒前'],
+    [/^Welcome back, you were away for (.+) days (.+) hours\nLast update was (.+) seconds ago$/, '欢迎回来，你离开了 $1 天 $2 小时\n上次更新是 $3 秒前'],
+    [/^Welcome back, you were away for (.+) hours (.+) minutes\nLast update was (.+) days (.+) hours ago$/, '欢迎回来，你离开了 $1 小时 $2 分钟\n上次更新是 $3 天 $4 小时前'],
+    [/^Welcome back, you were away for (.+) hours (.+) minutes\nLast update was (.+) months (.+) days ago$/, '欢迎回来，你离开了 $1 小时 $2 分钟\n上次更新是 $3 个月 $4 天前'],
+    [/^Welcome back, you were away for (.+) hours (.+) minutes\nLast update was (.+) year (.+) month ago$/, '欢迎回来，你离开了 $1 小时 $2 分钟\n上次更新是 $3 年 $4 个月前'],
+    [/^Welcome back, you were away for (.+) hours (.+) minutes\nLast update was (.+) hours (.+) minutes ago$/, '欢迎回来，你离开了 $1 小时 $2 分钟\n上次更新是 $3 小时 $4 分钟前'],
+    [/^Welcome back, you were away for (.+) hours (.+) minutes\nLast update was (.+) minutes (.+) seconds ago$/, '欢迎回来，你离开了 $1 小时 $2 分钟\n上次更新是 $3 分钟 $4 秒前'],
+    [/^Welcome back, you were away for (.+) hours (.+) minutes\nLast update was (.+) seconds ago$/, '欢迎回来，你离开了 $1 小时 $2 分钟\n上次更新是 $3 秒前'],
+    [/^Welcome back, you were away for (.+) minutes (.+) seconds\nLast update was (.+) days (.+) hours ago$/, '欢迎回来，你离开了 $1 分钟 $2 秒\n上次更新是 $3 天 $4 小时前'],
+    [/^Welcome back, you were away for (.+) minutes (.+) seconds\nLast update was (.+) months (.+) days ago$/, '欢迎回来，你离开了 $1 分钟 $2 秒\n上次更新是 $3 个月 $4 天前'],
+    [/^Welcome back, you were away for (.+) minutes (.+) seconds\nLast update was (.+) year (.+) month ago$/, '欢迎回来，你离开了 $1 分钟 $2 秒\n上次更新是 $3 年 $4 个月前'],
+    [/^Welcome back, you were away for (.+) minutes (.+) seconds\nLast update was (.+) hours (.+) minutes ago$/, '欢迎回来，你离开了 $1 分钟 $2 秒\n上次更新是 $3 小时 $4 分钟前'],
+    [/^Welcome back, you were away for (.+) minutes (.+) seconds\nLast update was (.+) minutes (.+) seconds ago$/, '欢迎回来，你离开了 $1 分钟 $2 秒\n上次更新是 $3 分钟 $4 秒前'],
+    [/^Welcome back, you were away for (.+) minutes (.+) seconds\nLast update was (.+) seconds ago$/, '欢迎回来，你离开了 $1 分钟 $2 秒\n上次更新是 $3 秒前'],
+    [/^Welcome back, you were away for (.+) seconds\nLast update was (.+) days (.+) hours ago$/, '欢迎回来，你离开了 $1 秒\n上次更新是 $2 天 $3 小时前'],
+    [/^Welcome back, you were away for (.+) seconds\nLast update was (.+) months (.+) days ago$/, '欢迎回来，你离开了 $1 秒\n上次更新是 $2 个月 $3 天前'],
+    [/^Welcome back, you were away for (.+) seconds\nLast update was (.+) year (.+) month ago$/, '欢迎回来，你离开了 $1 秒\n上次更新是 $2 年 $3 个月前'],
+    [/^Welcome back, you were away for (.+) seconds\nLast update was (.+) hours (.+) minutes ago$/, '欢迎回来，你离开了 $1 秒\n上次更新是 $2 小时 $3 分钟前'],
+    [/^Welcome back, you were away for (.+) seconds\nLast update was (.+) minutes (.+) seconds ago$/, '欢迎回来，你离开了 $1 秒\n上次更新是 $2 分钟 $3 秒前'],
+    [/^Welcome back, you were away for (.+) seconds\nLast update was (.+) seconds ago$/, '欢迎回来，你离开了 $1 秒\n上次更新是 $2 秒前'],
+    [/^Basic: (.+) \+ False: (.+) \+ Void: (.+)$/, '基础：$1 + 假：$2 + 虚空：$3'],
+    [/^Basic: (.+) \+ False: (.+)$/, '基础：$1 + 假：$2'],
+    [/^Basic: (.+) \+ Void: (.+)$/, '基础：$1 + 虚空：$2'],
+    [/^Basic: (.+)$/, '基础：$1'],
+    [/^False: (.+) \+ Void: (.+)$/, '假：$1 + 虚空：$2'],
+    [/^False: (.+)$/, '假：$1'],
+    [/^Void: (.+)$/, '虚空：$1'],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
     // [/^$/, ''],
     // [/^$/, ''],
     // [/^$/, ''],
@@ -3752,13 +3881,6 @@ var cnRegReplace = new Map([
   这个vs的格式有点难找啊……
   以及超级虚空的奖励也没搞。
   早晚得重新玩一遍。
-[
-  "More of the same Star type will be found within Star cluster. Star clusters and their minimum strength will be improved by 2. It will also boost Stars of lower tier, but 2 times less than the previous one.\nNext tier will be Brown dwarfs. Currently can boost: Blue hypergiants, Red supergiants, Main sequence, Brown dwarfs.",
-  "More of the same Star type will be found within Star cluster. Star clusters and their minimum strength will be improved by 2. It will also boost Stars of lower tier, but 2 times less than the previous one.\nNext tier will be Main sequence. Currently can boost: Blue hypergiants, Red supergiants.",
-  "More of the same Star type will be found within Star cluster. Star clusters and their minimum strength will be improved by 2. It will also boost Stars of lower tier, but 2 times less than the previous one.\nNext tier will be Red supergiants. Currently can boost: Blue hypergiants.",
-  "Super dense core which will allow creation of a new Structure. That Structure will increase Stage reset reward, boost Nebulas and Star clusters. But creating it will fully reset Interstellar and Intergalactic Stages.\nThis Research also removes Solar mass and other Remnant requirements from everything in the Interstellar Stage.",
-  ""
-]
 */
 //感谢做汉化插件的大佬们！~~
 //以及感谢为我提供存档的大佬
