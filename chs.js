@@ -464,7 +464,7 @@ var cnItems = {
     "'Magma Ocean' upgrade is stronger now. (1.5x times)": "'岩浆海洋'升级现在更强。 （1.5 倍）",
     "Adhesion.": "附着力。",
     "Aerodynamic drag.": "气动阻力。",
-    "Atmosphere.": "气氛。",
+    "Atmosphere.": "大气。",
     "Bodies are now massive enough to affect each other with gravity. (4x boost to Planetesimals)": "物体现在足够大，可以通过引力相互影响。 （微行星提升 4 倍）",
     "Brownian motion.": "布朗运动。",
     "Contact binary.": "接触双星。",
@@ -1908,6 +1908,10 @@ var cnItems = {
     "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，约 1e52 星尘的升级 - “反氦聚变”。",
     "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', ~1e52 Stardust Upgrade ‒ 'Helium fusion'.":
     "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，约 1e52 星尘的升级 - “氦聚变”。",
+    "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ '(Unknown)', ~1e52 Stardust Upgrade ‒ '(Unknown)'.":
+    "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “（未知）”，约 1e52 星尘的升级 - “（未知）”。",
+    "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', ~1e52 Stardust Upgrade ‒ '(Unknown)'.":
+    "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，约 1e52 星尘的升级 - “（未知）”。",
     "Always automatically create all Special Researches from any Stage.\n(Needs to be enabled in Settings, unlocked automatization: auto Upgrades, Stage and Special Researches)":
     "总是自动创建任何阶段的所有特殊研究。\n（需要在设置中启用，已解锁的自动化：自动升级，自动阶段研究，自动特殊研究）",
     "Always automatically create all Special Researches from any Stage.\n(Needs to be enabled in Settings, unlocked automatization: auto Upgrades, Stage Researches)":
@@ -2271,8 +2275,8 @@ var cnItems = {
     "Start Vacuum resets with Strangeness for auto Discharge, Vaporization, Rank, Collapse, Galaxy and Merge at level 1": "以 1 级“自动放能”、“自动汽化”、“自动等阶”、“自动坍缩”、“自动星系”和“自动合并”奇异升级开始真空重置",
     "Strange boosts are now based on total Strange quarks instead of current": "奇异夸克增益现在基于奇异夸克的总获取量而不是当前剩余量",
     "Swap alert confirmation buttons": "交换警告和确认按钮",
-    "together to create even bigger Structures. Might have severe consequences": "一起来创造更大的结构。可能会产生严重后果",
-    "together, which will result in": "一起，这将导致",
+    "together to create even bigger Structures. Might have severe consequences": "到一起来创造更大的结构。可能会产生严重后果",
+    "together, which will result in": "到一起，这将导致",
     "True Vacuum will also start with 'Conservation of Mass' Strangeness level 2": "真真空也将以“质量保留”奇异升级的 2 级开始",
     "Unlock auto Strangeness (needs to be enabled in Settings), true Vacuum will also start with 'Strange growth' level 1": "解锁自动奇异升级（需要在设置中启用），真真空也将从“奇异增长”奇异升级的 1 级开始",
     "Unlock new mode for auto Stage that uses seconds since peak": "解锁使用基于自峰值后过去的秒数的自动阶段重置新模式",
@@ -2404,6 +2408,8 @@ var cnItems = {
     "在第一级时将 '更多水流' 阶段研究的最大等级提升 +1，以及在第二级时将 '支流河道' 阶段研究的最大等级提升 +1。\n最终等级将解锁一个新的升级 ‒ '海啸'，其成本为 1e28 ",
     "Increase max level for 'Rank boost' Rank Research by +6 at first level and 'Efficient growth' Rank Research by +2 at second level.\nFinal level will instead unlock a new Upgrade ‒ 'Hydrostatic equilibrium' that costs 1e22 Mass.":
     "在第一级时将 '等阶增益' 等阶研究的最大等级提升 +6，以及在第二级时将 '高效增长' 等阶研究的最大等级提升 +2。\n最终等级将解锁一个新的升级 ‒ '流体静力平衡'，其成本为 1e22 质量。",
+    "Increase max level for 'Rank boost' Rank Research by +6 at first level and 'Efficient growth' Rank Research by +2 at second level.\nFinal level will instead unlock a new Upgrade ‒ '(Unknown)' that costs 1e22 Mass.":
+    "在第一级时将 '等阶增益' 等阶研究的最大等级提升 +6，以及在第二级时将 '高效增长' 等阶研究的最大等级提升 +2。\n最终等级将解锁一个新的升级 ‒ '(未知)'，其成本为 1e22 质量。",
     "Increase max level for 'Stronger surface tension' Stage Research by +3 at first level and 'Stronger surface stress' Stage Research by +1 at second level.\nFinal level will instead unlock an even better new Upgrade ‒ 'Tide' that costs 2e48 ":
     "在第一级时将 '更强的表面张力' 阶段研究的最大等级提升 +3，在第二级时将 '更强的表面应力' 阶段研究的最大等级提升 +1。\n最终等级将解锁一个更好的新升级 ‒ '潮汐'，其成本为 2e48 ",
     "Positrons.": "正电子。",
@@ -2557,7 +2563,7 @@ var cnItems = {
     "Drops will produce Moles 3 times more.": "水滴生产 3 倍的摩尔。",
     "Puddles will produce 2 times more ": "水坑产生 2 倍的",
     "Increase max allowed non-safe Merge resets by +current relevant self-made Universes, every Merge reset above safe value adjusts cost for the next Universe.\nAlso stabilize false Vacuum, allow creation of false Universes and add new effect for false Vacuum 'Void Milestones'.\nFor true Vacuum it will instead also make Strangelets produce themselves.":
-     "将允许的非安全合并重置的最大值增加当前相关自建宇宙数，每次超过安全值的合并重置都会调整下一个宇宙的成本。\n还稳定假真空，允许创建假宇宙，并为假真空的“虚空里程碑”添加新的效果。\n对于真真空，它将使奇异粒能够产生奇异粒。",
+     "将允许的非安全合并重置最大次数增加当前相关自建宇宙数（如正在虚空中，则根据虚空自建宇宙数，以此类推），每次非安全的合并重置都会临时调整下一个宇宙的成本。\n（注：合并重置分为“安全”与该膨胀添加的“非安全”。非安全合并重置会临时增加下一个宇宙的成本，但达到下一个宇宙所需的单次合并星系数量不变；）\n（该膨胀添加的非安全合并重置次数等于当前将获得的宇宙类型的自建宇宙个数，在深渊阶段界面将鼠标停在宇宙数后的绿色[x]上可查看自建宇宙各类型数量）\n还稳定假真空，允许创建假宇宙，并为假真空的“虚空里程碑”添加新的效果。\n对于真真空，它将使奇异粒能够产生奇异粒。",
     ", ignored if unlocked passive": "，如果已解锁被动则忽略",
     "Structures,": "结构，",
     "Dark": "暗",
@@ -2581,12 +2587,13 @@ var cnItems = {
     "Shift clicking the hotkey will set it to the default value or remove it": "按住 Shift 点击一个快捷键设置将把它设置为默认值或删除它",
     "Increase max level for 'More streams' Stage Research by +1 at first level and 'Distributary channel' Stage Research by +1 at second level.\nFinal level will instead unlock a new Upgrade ‒ '(Unknown)' that costs 1e28 ":
      "在第一级提升“更多水流”阶段研究的最大等级 1 级，在第二级提升“支流水道”阶段研究的最大等级 1 级。\n最后一级将解锁一个新的升级 ‒ “（未知）”，它的成本是 1e28 ",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
+    "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ '(Unknown)', 1e50 Stardust Collapse Research ‒ '(Unknown)', ~1e52 Stardust Upgrade ‒ '(Unknown)'.":
+     "解锁一个新的升级，它非常好：\n1e11 星尘的阶段研究 ‒ “（未知）”，1e50 星尘的坍缩研究 ‒ “（未知）”，约 1e52 星尘的升级 ‒ “（未知）”。",
+    "No time": "时间不足",
+    "Make auto for the first two Intergalactic Structures permanent and prevent higher levels from resetting.": "使前两个星系际结构的自动化永久化，并防止更高级别的结构重置。",
+    "Make Intergalactic Stage immune to Collapse reset and allow 'Upgrade automatization' to work within the Intergalactic Stage.": "使星系际阶段免疫坍缩重置，并允许“自动升级”在星系际阶段内工作。",
+    "Unlocked Galaxy Researches and a new Milestone.\n(Also unlocked new toggle to automatically change active Stage to Intergalactic)": "解锁星系研究和一个新的里程碑。\n（还解锁了一个新的切换选项，可以自动将活动阶段更改为星系际）",
+    "Changing this setting will reload the page, confirm?\n(Game will not autosave)": "更改此设置会重新加载页面，要继续吗？\n（游戏不会自动保存）",
     "": "",
     "": "",
     "": "",
@@ -3058,7 +3065,7 @@ var cnRegReplace = new Map([
     [/^Welcome back, you were away for (.+) seconds. \(Offline storage is full\)\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 秒。（离线存储时间已满）\n当前版本是 $2'],
     [/^Welcome back, you were away for (.+) minutes (.+) seconds$/, '欢迎回来，您离开了 $1 分 $2 秒'],
     [/^Welcome back, you were away for (.+) seconds$/, '欢迎回来，您离开了 $1 秒'],
-    [/^Welcome back, you were away for (.+) seconds\nLast update was (.+) ago$/, '欢迎回来，你离开了$1\n上一次更新是在 $2 之前'],
+    [/^Welcome back, you were away for (.+) seconds\nLast update was (.+) ago$/, '欢迎回来，您离开了 $1 秒\n上一次更新是在 $2 之前'],
     [/^Welcome back, you were away for (.+) minutes. \(Offline storage is full\)\nCurrent version is (.+)$/, '欢迎回来，您离开了 $1 分钟。（离线存储时间已满）\n当前版本是 $2'],
     [/^Welcome back, you were away for (.+) hours. \(Offline storage is full\)\nGame have been updated from (.+) to (.+)$/, '欢迎回来，您离开了 $1 小时。（离线存储时间已满）\n游戏已经从 $2 版本 更新到 $3 版本'],
     [/^Welcome back, you were away for (.+) days (.+) hours\nGame have been updated from (.+) to (.+)\n\(Game loaded after (.+) seconds\)$/, '欢迎回来，您离开了 $1 天 $2 小时\n游戏已从 $3 更新到 $4\n（游戏在 $5 秒后加载）'],
@@ -4137,12 +4144,14 @@ var cnRegReplace = new Map([
     [/^(.+) minutes to complete this tier within Intergalactic Stage.$/, '有 $1 分钟来在星系际阶段完成这个级别。'],
     [/^(.+) seconds to complete this tier within Intergalactic Stage.$/, '有 $1 秒来在星系际阶段完成这个级别。'],
     [/^Have at least (.+) Puddles at the same time.$/, '同时拥有至少 $1 个水坑。'],
-    // [/^$/, ''],
-    // [/^$/, ''],
-    // [/^$/, ''],
-    // [/^$/, ''],
-    // [/^$/, ''],
-    // [/^$/, ''],
+    [/^Have more or equal to (.+) Satellites.$/, '拥有至少 $1 个卫星。'],
+    [/^Small bodies will spontaneously concentrate into clumps.\n\(Self-made Planetesimals will boost each other by (.+)\)$/,
+        '小天体将自发地集中成团块。\n（自建微行星将相互加成 $1 倍）'],
+    [/^Nova. \(Level (.+) out of (.+)\)$/, '新星。（等级 $1 / $2）'],
+    [/^Supernova. \(Level (.+) out of (.+)\)$/, '超新星。（等级 $1 / $2）'],
+    [/^Have Solar mass after Collapse reach (.+) or more.$/, '坍缩后至少拥有 $1 太阳质量。'],
+    [/^Have self-made Stars count reach at least (.+).$/, '自建星球数量至少达到 $1。'],
+    [/^Have (.+) Galaxies or more.$/, '拥有至少 $1 个星系。'],
     // [/^$/, ''],
     // [/^$/, ''],
     // [/^$/, ''],
