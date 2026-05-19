@@ -57,7 +57,7 @@ html { --elements-columns-phone: min(var(--elements-columns), 9); }
     margin-bottom: 0;
 }
 
-#inflations,
+#inflation,
 #elementsGrid,
 #strangenessResearch {
     margin-top: -0.6em;
