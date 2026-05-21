@@ -761,7 +761,7 @@ var cnItems = {
     "Start with auto for Cosmic dust.": "开始时拥有 宇宙尘埃 的自动化。",
     "Start with auto for Drops.": "开始时拥有 水滴 的自动化。",
     "Start with auto for Quarks.": "开始时拥有 夸克 的自动化。",
-    "Strange boost.": "奇异提升。",
+    "Strange boost.": "奇异增益。",
     "Strange gain.": "奇异获取。",
     "Unlock a new Upgrade.\nFirst one is extra good.": "解锁一个新的升级。\n第一个特别好。",
     "Unlock automatization for Upgrades / Researches.": "解锁升级/研究的自动化。",
@@ -1521,6 +1521,8 @@ var cnItems = {
     "Gain 1.4 times more Strange quarks from any Stage reset per level.": "每级使任意阶段重置获取的奇异夸克变为 1.4 倍。",
     "True Vacuum only, make 'Ocean world' Strangeness old effect always active and add new effect to improve related formula.\nSecond level will make 'Natural Vaporization' Cloud Research old effect of 'Clouds use total Drops this reset' always active and add new effect to unlock 1% > 10% passive Clouds gain over 5 levels, 10 times stronger with 'Automatic Vaporization' Strangeness level 2.\nThird level will improve a lot of Strangeness, also max level will be affected by Void for the first two in the list: +0.5 to 'Better improvement', +0.2 to 'More Moles' and 'Bigger Puddles', +0.04 to 'Improved flow' and finally new Upgrade from 'Galactic tide' level 2.\nFinal level will make most of Submerged immune to pre-Merge resets, Vaporization will still reset Submerged, but never higher Stages.":
     "只对真真空有效，使“海洋世界”奇异升级的原效果始终存在，并添加新效果来改进相关公式。\n第二级会使“自然汽化”云研究的原效果“云使用本次重置的总水滴”始终存在，并添加新效果，解锁 1% 至 10% 的被动云获取，分 5 级，在“自动汽化”奇异升级等级 2 时增强 10 倍。\n第三级会改进许多奇异升级，同时以下列表中的前两个奇异升级的最大等级将受到虚空的影响：提升“更好的提升”+0.5，“更多摩尔”和“更大的水坑”+0.2，“改进的流动”+0.04，最后还有来自“星系潮汐”第 2 级的新升级。\n最后一级会使大部分湮没阶段结构免疫合并之前的重置，汽化仍然会重置湮没阶段，但不会重置更高的阶段。",
+    "True Vacuum only, make 'Ocean world' Strangeness old effect always active and add new effect to improve related formula.\nSecond level will make 'Natural Vaporization' Cloud Research old effect always active and add new effect to unlock 1% > 10% passive Clouds gain over 5 levels, 10 times stronger with 'Automatic Vaporization' level 2, also this level will slightly improve Submersion formula.\nThird level will slightly improve effects for the following Strangeness: 'Better improvement', 'More Moles', 'Bigger Puddles', 'Improved flow', also will make Void increase max level for the first two and finally this level will add new Upgrade for 'Galactic tide' level 2.\nFinal level will make most of Submerged immune to pre-Stage resets, Vaporization will still reset Submerged, but never higher Stages.":
+    "只对真真空有效，使“海洋世界”奇异升级的原效果始终存在，并添加新效果来改进相关公式。\n第二级会使“自然汽化”云研究的原效果始终存在，并添加新效果，解锁 1% 至 10% 的被动云获取，分 5 级，在“自动汽化”等级 2 时增强 10 倍，同时这一等级还会稍微改进湮没的公式。\n第三级会稍微改进以下奇异升级的效果：“更好的提升”、“更多摩尔”、“更大的水坑”、“改进的流动”，同时使虚空增加前两个奇异升级的最大等级，最后这一等级还会为“星系潮汐”第 2 级添加一个新的升级。\n最后一级会使大部分湮没阶段结构免疫阶段重置之前的重置，汽化仍然会重置湮没阶段，但不会重置更高的阶段。",
     "True Vacuum only, make 'Natural Vaporization' Clouds Research old effect permanent and replace it with auto Vaporization level 2 (it itself will now increase strength by 4), second level will increase its max level by +3, third level will unlock a new Research for 'Galactic tide' Strangeness.\nFinal level will increase max level of 'Ocean world' Strangeness and remove the 'no Rank resets' condition from the Void rewards.\nAlso decrease required Drops for a Cloud by 5 per level if inside any Void.":
     "只对真真空有效，使“自然汽化”云研究的原效果永久存在，然后用“自动汽化”等级 2 的效果替换其效果（它自身现在被增强了 4 倍），第二级会提升自然汽化等级最大值 3 级，第三级会为“星系潮汐”奇异升级解锁一个新的研究。\n最后一级会提升“海洋世界”奇异升级的最大等级 1 级，并移除虚空奖励中的“没有等阶重置”条件。\n每级还会减少虚空中获取云所需的水滴至原来的 1/5。",
     "True Vacuum only, make effective Rank boost even more: (all effects are per Rank)\n+0.5 Discharge goals at level 1, +1 to max level of 'Planetary system' Interstellar Research at level 2 and 1.01x to the Solar mass gain at level 3.\nFinal level will instead increase max level of 'Rank raise' Strangeness and improve auto Rank level 2 by making it not reset anything.\nAlso increase effective Rank by +1 per level if inside any Void.":
@@ -1585,6 +1587,8 @@ var cnItems = {
     "As Galaxies began to Merge, their combined Gravity pushed Vacuum out of its local minimum into a more stable global minimum. New forces and Structures are expected within this new and true Vacuum state":
     "随着星系开始合并，它们合并在一起的引力将真空从它的局部最小值推出来，进入一个更稳定的全局最小值。新的力量和结构将在这个新的、真的真空状态中出现",
     "With Vacuum decaying, the remaining matter had rearranged itself, which had lead to the formation of the 'Void'. Check it out in the 'Advanced' subtab":"伴随着真空衰朽，剩余的物质重新排列了自己，导致了“虚空”的形成。在“高级”子选项卡中查看它",
+    "With Vacuum decaying, the remaining matter had rearranged itself, which had lead to the formation of the very first Challenge ‒ 'Void'. Check it out in the Advanced subtab.\n(There is no reason to stay inside Challenges past time limit)":
+    "伴随着真空衰朽，剩余的物质重新排列了自己，导致了第一个挑战 - “虚空”的形成。在“高级”子选项卡中查看它。\n（超过时间限制后没有理由继续留在挑战中）",
     "As Galaxies began to Merge, their combined Gravity started forming an even bigger Structure - the 'Universe'. Will need to maximize Galaxies before every Merge to get enough Score to create it.\n(Merge reset can only be done a limited amount of times per Stage reset)":
     "随着星系开始合并，它们合并在一起的引力开始形成一个更大的结构 - “宇宙”。你将需要在每次合并前最大化你的星系数量来得到足够的分数以创建它。\n（每次阶段重置中合并重置可进行的次数是有限的）",
     "Now that the first Universe is finished, it's time to Inflate a new one and so to unlock the Inflation tab, new Upgrades and more Void rewards to complete\n(Also improve 'Nucleosynthesis' effect to unlock more Elements for every self-made Universe and exports will now fully claim their storage)":
@@ -1774,6 +1778,8 @@ var cnItems = {
     "‒ Drops above 1 do not increase their own production\n‒ Puddles are 8000 times weaker\nMore nerfs will be shown with more rewards":"- 1 个以上的水滴不会提升它们自己的生产\n- 水坑强度变为原本的 8000 分之一\n更多削弱会在获得更多奖励后展示",
     "‒ Drops above 1 do not increase their own production\nMore nerfs will be shown with more rewards":"- 1 个以上的水滴不会提升它们自己的生产\n更多削弱会在获得更多奖励后展示",
 
+    "‒ Interstellar Stars are 8000 times weaker\n‒ Solar mass gain is 2 times smaller\n‒ Solar mass effect is softcapped ^0.2 after 1\n‒ Quasi-stars do not produce anything and scale in cost 10 times faster":
+    "- 星球强度变为原本的 8000 分之一\n- 太阳质量获取变为原来的 2 分之一\n- 太阳质量效果在 1 后受到软上限 ^0.2\n- 类恒星不生产任何东西并且价格蠕变 10 倍",
     "‒ Interstellar Stars are 8000 times weaker\n‒ Solar mass gain is 2 times smaller\n‒ Solar mass effect is softcapped ^0.2 after 1\n‒ Quasi-stars do not produce anything and scale in cost faster":
     "- 星球强度变为原本的 8000 分之一\n- 太阳质量获取变为原来的 2 分之一\n- 太阳质量效果在 1 后受到软上限 ^0.2\n- 类恒星不生产任何东西并且价格蠕变更高",
     "‒ Interstellar Stars are 8000 times weaker\n‒ Solar mass gain is 2 times smaller\n‒ Solar mass effect is softcapped ^0.2 after 1\nMore nerfs will be shown with more rewards":
@@ -1856,6 +1862,7 @@ var cnItems = {
     "Matter will be expelled from Red giants, this will boost Main-sequence Stars by 2, and also increase 'Planetary system' max level by +3.":"被红巨星排出的物质，这会提升主序星球至 2 倍，也会提升“行星系统”的最大等级 3 级。",
     "Storage can be increased by gaining more than the current value in a single Stage reset": "通过在单次阶段重置中获得多余当前值，可以提升存储",
     "Submerged Structures that improve other Submerged Structures will do it 1.24 times stronger.\n(Affected Structures are Ponds, Lakes, Seas and Oceans)": "改进其他湮没结构的湮没结构变为 1.24 倍强。\n（影响的结构有池塘，湖泊，大海和海洋）",
+    "Submerged Structures that improve other Submerged Structures will do it 1.28 times stronger.\n(Affected Structures are Ponds, Lakes, Seas and Oceans)": "改进其他湮没结构的湮没结构变为 1.28 倍强。\n（影响的结构有池塘，湖泊，大海和海洋）",
     "Unlock a new Accretion Rank to achieve. (Also increase max level of 'Reset automatization')\nSecond level will remove the limit for new Ranks, but they will not unlock anything new.":
     "解锁一个新的吸积等阶可到达。（也提升“自动重置”的最大值）\n第 2 级会移除新等阶的限制，但它们不解锁任何新东西。",
     "Unlock a new Accretion Rank to achieve.\n(Also increase max level of 'Reset automatization')":
@@ -1880,8 +1887,8 @@ var cnItems = {
     "提升奇异升级的最大等级。\n（当前提升：“自动坍缩”（+1））",
     "Increase max levels of the Strangeness.\n(Current increases: none)": 
     "提升奇异升级的最大等级。\n（当前提升：无）",
-    // Unlock yet another an even better new Upgrade: (all of them cost around 1e140 Stardust)\nUpgrade ‒ 'Nucleosynthesis', Collapse Research ‒ 'Quark-nova', Stage Research ‒ 'Inner Black hole'.
-    // Unlock yet another an even better new Upgrade: (all of them cost around 1e140 Stardust)\nUpgrade ‒ 'Nucleosynthesis', Collapse Research ‒ 'Quark-nova', Stage Research ‒ 'Inner Black hole'.
+    "Unlock yet another an even better new Upgrade:\nUpgrade ‒ 'Nucleosynthesis', Collapse Research ‒ 'Quark-nova', Stage Research ‒ 'Inner Black hole'.":
+    "解锁另一个更好的新升级：\n升级 - “核合成”，坍缩研究 - “夸克新星”，阶段研究 - “内黑洞”",
     "Unlock yet another an even better new Upgrade: (all of them cost around 1e140 Stardust)\nUpgrade ‒ 'Nucleosynthesis', Collapse Research ‒ 'Quark-nova', Stage Research ‒ 'Inner Black hole'.":
     "解锁另一个更好的新升级：（它们都花费大约 1e140 星尘）\n升级 - “核合成”，坍缩研究 - “夸克新星”，阶段研究 - “内黑洞”",
     "Unlock yet another an even better new Upgrade.\n(Current unlocks: 'Nucleosynthesis' (Upgrade), 'Quark-nova' (Collapse Research), 'Inner Black hole' (Stage Research))":
@@ -1892,6 +1899,7 @@ var cnItems = {
     "解锁另一个更好的新升级。\n（当前解锁：“核合成”（升级））",
     "Unlock yet another an even better new Upgrade.\n(Current unlocks: none)":
     "解锁另一个更好的新升级。\n（当前解锁：无）",
+    
     "Unlock a new Upgrade, its pretty good.\n(Current unlocks: 'Planetary nebula' (Stage Research), 'White dwarfs' (Collapse Research), 'Helium fusion' (Upgrade))":
     "解锁一个新的升级，它很棒。\n（当前解锁：“行星状星云”（阶段研究），“白矮星”（坍缩研究），“氦聚变”（升级））",
     "Unlock a new Upgrade, its pretty good.\n(Current unlocks: 'Planetary nebula' (Stage Research), 'White dwarfs' (Collapse Research))":
@@ -1912,6 +1920,18 @@ var cnItems = {
     "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “（未知）”，约 1e52 星尘的升级 - “（未知）”。",
     "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', ~1e52 Stardust Upgrade ‒ '(Unknown)'.":
     "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，约 1e52 星尘的升级 - “（未知）”。",
+    "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', 1e54 Stardust Upgrade ‒ 'Antihelium fusion'.":
+    "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，1e54 星尘的升级 - “反氦聚变”。",
+    "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', 1e54 Stardust Upgrade ‒ 'Helium fusion'.":
+    "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，1e54 星尘的升级 - “氦聚变”。",
+    "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', 1e52 Stardust Upgrade ‒ 'Antihelium fusion'.":
+    "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，1e52 星尘的升级 - “反氦聚变”。",
+    "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', 1e52 Stardust Upgrade ‒ 'Helium fusion'.":
+    "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，1e52 星尘的升级 - “氦聚变”。",
+    "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ '(Unknown)', 1e52 Stardust Upgrade ‒ '(Unknown)'.":
+    "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “（未知）”，1e52 星尘的升级 - “（未知）”。",
+    "Unlock a new Upgrade, its pretty good:\n1e11 Stardust Stage Research ‒ 'Planetary nebula', 1e50 Stardust Collapse Research ‒ 'White dwarfs', 1e52 Stardust Upgrade ‒ '(Unknown)'.":
+    "解锁一个新的升级，它很棒。\n1e11 星尘的阶段研究 - “行星状星云”，1e50 星尘的坍缩研究 - “白矮星”，1e52 星尘的升级 - “（未知）”。",
     "Always automatically create all Special Researches from any Stage.\n(Needs to be enabled in Settings, unlocked automatization: auto Upgrades, Stage and Special Researches)":
     "总是自动创建任何阶段的所有特殊研究。\n（需要在设置中启用，已解锁的自动化：自动升级，自动阶段研究，自动特殊研究）",
     "Always automatically create all Special Researches from any Stage.\n(Needs to be enabled in Settings, unlocked automatization: auto Upgrades, Stage Researches)":
@@ -2218,7 +2238,7 @@ var cnItems = {
     "Attempt to": "试图",
     "Auto accept Offline time": "自动接受离线时间",
     "Auto disable if still capable to do more automatic Merges": "如果仍能进行更多自动合并，则自动禁用",
-    "Autosave on tab out or page refresh": "标签页退出或页面刷新时自动保存",
+    "Autosave on tab out or page refresh": "选项卡退出或页面刷新时自动保存",
     "Big Crunches:": "大收缩：",
     "by": "通过",
     "Calculating Offline time by using": "使用以下时间间隔进行离线时间计算",
@@ -2331,7 +2351,7 @@ var cnItems = {
     "'Collapse improvement' (Cosmons, WIP)":"坍缩改进（宇宙子，制作中）",
     "'Conservation of resources' (Cosmons)":"资源保留（宇宙子）",
     "'Discharge improvement' (Cosmons)":"放能改进（宇宙子）",
-    "'Improved Offline' (Inflatons)":"改进的离线（膨胀子）",
+    "'Improved Offline' (Inflatons)":"改进的离线（膨胀点）",
     "'More Cosmons' (Cosmons)":"更多宇宙子（宇宙子）",
     "'Passive Ranks' (Milestone)":"被动等阶（里程碑）",
     "'Rank improvement' (Cosmons)":"等阶改进（宇宙子）",
@@ -2357,8 +2377,8 @@ var cnItems = {
     "仅限真真空，每级获得 +1 免费放能目标，放能基础提升 0.1（不受软上限影响），并且每级降低需求蠕变 0.5。",
     "True Vacuum only, make effective Rank boost even more: (all effects are per Rank)\n+0.5 Discharge goals at level 1, +1 to max level of 'Planetary system' Interstellar Research at level 2, 1.01x to the Solar mass gain at level 3 and finally 1.02x to Stage reset reward at level 4.": 
     "仅限真真空，使有效等阶增益更多：（所有效果都是每等阶生效的）\n每个等阶增加 0.5 放能目标（1级），将“行星系统”星际研究的最大等级提升 1（2级），太阳质量获取提升 1.01 倍（3级），最后阶段重置奖励提升 1.02 倍（4级）。",
-    "'Better rewards' (Inflatons, WIP)":"更好的奖励（膨胀子，制作中）",
-    "'Inflationary boost' (Inflatons, WIP)":"膨胀增强（膨胀子，制作中）",
+    "'Better rewards' (Inflatons, WIP)":"更好的奖励（膨胀点，制作中）",
+    "'Inflationary boost' (Inflatons, WIP)":"膨胀增强（膨胀点，制作中）",
     "'Limitless Mass' (Milestone, WIP)":"无限质量（里程碑，制作中）",
     "'Main Stars' (Milestone, WIP)":"主星（里程碑，制作中）",
     "'Stranger gain' (Cosmons, WIP)":"奇异增益（宇宙子，制作中）",
@@ -2380,7 +2400,7 @@ var cnItems = {
      "为假真空移除里程碑的时间限制，并允许重置黑暗阶段获取奇异粒，黑暗阶段不随其他阶段重置。\n为真真空中的虚空解锁假真空里程碑。它们的效果始终生效，只要这个膨胀被激活。",
     "Infinity Strange quarks.": "无限 奇异夸克。",
     "‒ Darkness uses separate automatizations\n‒ Darkness is enabled in false Vacuum\nMore information to be revealed (WIP)": 
-    "- 黑暗阶段使用独立的自动化\n‒ 在假真空中禁用黑暗\n更多信息将被揭示（制作中）",
+    "- 黑暗阶段使用独立的自动化\n‒ 在假真空中黑暗已可用\n更多信息将被揭示（制作中）",
     "Unlock a new mini Stage 'Darkness', activated in the 'Advanced' subtab.": "解锁一个小阶段“黑暗”，在“高级”子选项卡中激活。",
     "Increase max levels for a lot of Strangeness by +1, these include:\n'Fundamental boost', 'Bigger Puddles', 'Faster Accretion', 'Hotter Stars' and 'Bigger Structures'": 
     "将许多奇异升级的最大等级提升 1 级，这些包括：\n“基础提升”、“更大的水坑”、“更快的吸积”、“更炙热的星球”和“更大的结构”",
@@ -2480,7 +2500,7 @@ var cnItems = {
     "Cloud density is too high... Any new Clouds past 10000 will be weaker due to the softcap.":
     "云密度太高了……超过 10000 的新云层会因为软上限而变弱。",
     "Now that current Universe is finished, it's time to Inflate a new one and so to unlock the 'Inflation' tab.\n(Universes only use specialized hotkeys. Also 'Nucleosynthesis' unlocks more Elements based on self-made Universes)":
-    "既然当前宇宙以及完成，是时候膨胀一个新的宇宙并解锁 '膨胀' 标签页了。\n（宇宙只使用专门的快捷键。此外，'核合成' 会根据自建宇宙解锁更多的元素）",
+    "既然当前宇宙以及完成，是时候膨胀一个新的宇宙并解锁 '膨胀' 选项卡了。\n（宇宙只使用专门的快捷键。此外，'核合成' 会根据自建宇宙解锁更多的元素）",
     "That last explosion not only created the first Neutron stars, but also unlocked new Elements through Supernova nucleosynthesis.":
     "那次最后的爆炸不仅创造了第一批中子星，还通过超新星核合成解锁了新的元素。",
     "There are no Structures in Intergalactic yet, but knowledge for their creation can be found within the previous Stages. Stage resets and exports will now award Strange quarks, and '[26] Iron' will improve Stage reset reward based on total produced Stardust.\n(Intergalactic Stars are combined Interstellar Stars. Export rewards are based on highest reset value, that stored value will decrease by claimed amount)":
@@ -2491,33 +2511,49 @@ var cnItems = {
     "解锁了通过基本的终结重置 ‒ '大收缩' 来结束当前宇宙的能力，还解锁了更难的虚空版本 ‒ '超级虚空'，它对终结重置免疫。\n（需要点击 '虚空' 按钮切换到超级虚空。如果在真真空中，终结重置奖励基础将增加 +1）",
     "With Vacuum decaying, the remaining matter had rearranged itself, which had lead to the formation of the very first Challenge ‒ 'Void'. Check it out in the 'Advanced' subtab.\n(There is no reason to stay inside Challenges past time limit)":
     "随着真空的衰变，剩余的物质重新排列，这导致了第一个挑战的形成 ‒ '虚空'。在“高级”子选项卡中查看它。\n（超过时间限制后就没有理由继续留在挑战中咯）",
+    "With Vacuum decaying, the remaining matter had rearranged itself, which had lead to the formation of the very first Challenge ‒ 'Void'. Check it out in the Advanced subtab.\n(There is no reason to stay inside Challenges past time limit)":
+    "随着真空的衰变，剩余的物质重新排列，这导致了第一个挑战的形成 ‒ '虚空'。在“高级”子选项卡中查看它。\n（超过时间限制后就没有理由继续留在挑战中咯）",
+    "1000 Dark energy allows to do a more advanced End reset ‒ 'Big Rip', this one just adds non-self-made Universes into Cosmons gain base.\n(Doing it for the first time will also unlock new Inflation and false Vacuum Strangeness)":
+    "1000 暗能量允许进行更高级的终结重置 ‒ '大撕裂'，这个重置只是将非自建宇宙加入宇宙子获取基数。\n（第一次进行它还将解锁新的膨胀和新的假真空奇异升级）",
+    "Now that current Universe is finished, it's time to Inflate a new one and so to unlock the Inflation tab.\n(Universes only use specialized hotkeys. Also 'Nucleosynthesis' unlocks more Elements based on self-made Universes)":
+    "既然当前宇宙已经完成，是时候膨胀一个新的宇宙并解锁 '膨胀' 选项卡了。\n（宇宙只使用专门的快捷键。此外，'核合成' 会根据自建宇宙解锁更多的元素）",
+    "Unlocked ability to End current Universes through basic End reset ‒ 'Big Crunch', also unlocked harder version of Void ‒ 'Supervoid' which is immune to End resets.\n(Base for End resets reward is increased by +1 while inside true Vacuum, not affected by multipliers)":
+    "解锁了通过基本的终结重置 ‒ '大收缩' 来终结当前宇宙的能力，还解锁了更难的虚空版本 ‒ '超级虚空'，它对终结重置免疫。\n（在真真空中，终结重置奖励基础将增加 +1，不受倍数影响）",
     
     "1000 Dark energy allows to do a more advanced End reset ‒ 'Big Rip', this one just adds non-self-made Universes into Cosmons gain base.\n(Doing it for the first time will also unlock new Inflation and ability to create new types of self-made Universes)\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "1000 暗能量允许进行更高级的终结重置 ‒ '大撕裂'，这个重置只是将非自建宇宙加入宇宙子获取基础。\n（第一次进行它还将解锁新的膨胀和创建新类型自建宇宙的能力）\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "1000 暗能量允许进行更高级的终结重置 ‒ '大撕裂'，这个重置只是将非自建宇宙加入宇宙子获取基数。\n（第一次进行它还将解锁新的膨胀和创建新类型自建宇宙的能力）\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "A new reset tier has been unlocked. It will allow the creation of higher tier Structures, but for the price of everything else.\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "解锁了一个新的重置级别。它将允许创建更高级别的结构，但代价是其他所有东西。\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "解锁了一个新的重置级别。它将允许创建更高级别的结构，但代价是其他所有东西。\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "After so many Universe resets, false Vacuum had became at the same time more and less stable, this had unlocked a new Challenge ‒ 'Vacuum stability'.\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "在经历了这么多宇宙重置之后，假真空变得既更稳定又更不稳定，这解锁了一个新的挑战 ‒ '真空稳定性'。\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "在经历了这么多宇宙重置之后，假真空变得既更稳定又更不稳定，这解锁了一个新的挑战 ‒ '真空稳定性'。\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "As Galaxies began to Merge, their combined Gravity pushed Vacuum out of its local minimum into a more stable global minimum. New forces and Structures are expected within this new and true Vacuum state.\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "随着星系开始合并，它们的合力引力将真空从能量的局部最低点推向更稳定的全局最低点。预计在这个新的真真空状态下会出现新的力和结构。\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "随着星系开始合并，它们的合力引力将真空从能量的局部最低点推向更稳定的全局最低点。预计在这个新的真真空状态下会出现新的力和结构。\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "As Galaxies began to Merge, their combined Gravity started forming an even bigger Structure ‒ 'Universe'. Will need to maximize Galaxies before every Merge to get enough Score to create it.\n(Merge reset can only be done a limited amount of times per Stage reset)\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "随着星系开始合并，它们的合力引力开始形成一个更大的结构 ‒ '宇宙'。需要在每次合并之前最大化星系以获得足够的分数来创建它。\n（每次阶段重置后，合并重置只能进行有限次数）\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "随着星系开始合并，它们的合力引力开始形成一个更大的结构 ‒ '宇宙'。需要在每次合并之前最大化星系以获得足够的分数来创建它。\n（每次阶段重置后，合并重置只能进行有限次数）\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "Cannot gain any more Mass with the current Rank. A new one has been unlocked, but reaching it will softcap the Mass production.\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "当前等阶无法获得更多质量。一个新的等阶已被解锁，但进入它将使质量生产被软上限。\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "当前等阶无法获得更多质量。一个新的等阶已被解锁，但进入它将使质量生产被软上限。\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "Cloud density is too high... Any new Clouds past 10000 will be weaker due to the softcap.\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "云密度太高了……超过 10000 的新云层会因为软上限而变弱。\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "云密度太高了……超过 10000 的新云层会因为软上限而变弱。\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "Now that current Universe is finished, it's time to Inflate a new one and so to unlock the 'Inflation' tab.\n(Universes only use specialized hotkeys. Also 'Nucleosynthesis' unlocks more Elements based on self-made Universes)\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "既然当前宇宙以及完成，是时候膨胀一个新的宇宙并解锁 '膨胀' 标签页了。\n（宇宙只使用专门的快捷键。此外，'核合成' 会根据自建宇宙解锁更多的元素）\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "既然当前宇宙以及完成，是时候膨胀一个新的宇宙并解锁 '膨胀' 选项卡了。\n（宇宙只使用专门的快捷键。此外，'核合成' 会根据自建宇宙解锁更多的元素）\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "That last explosion not only created the first Neutron stars, but also unlocked new Elements through Supernova nucleosynthesis.\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "那次最后的爆炸不仅创造了第一批中子星，还通过超新星核合成解锁了新的元素。\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "那次最后的爆炸不仅创造了第一批中子星，还通过超新星核合成解锁了新的元素。\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "There are no Structures in Intergalactic yet, but knowledge for their creation can be found within the previous Stages. Stage resets and exports will now award Strange quarks, and '[26] Antiiron' will improve Stage reset reward based on total produced Stardust.\n(Intergalactic Stars are combined Interstellar Stars. Export rewards are based on highest reset value, that stored value will decrease by claimed amount)\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "星系际目前还没有结构，但它们的创建知识可以在之前的阶段找到。阶段重置和导出存档现在将奖励奇异夸克，'[26] 反铁' 将根据总生产的恒星尘埃改善阶段重置奖励。\n（星系际星球是合并的星际星球。导出奖励基于最高重置值，该存储值将根据领取数量减少）\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "星系际目前还没有结构，但它们的创建知识可以在之前的阶段找到。阶段重置和导出存档现在将奖励奇异夸克，'[26] 反铁' 将根据总生产的恒星尘埃改善阶段重置奖励。\n（星系际星球是合并的星际星球。导出奖励基于最高重置值，该存储值将根据领取数量减少）\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "There are no Structures in Intergalactic yet, but knowledge for their creation can be found within the previous Stages. Stage resets and exports will now award Strange quarks, and '[26] Iron' will improve Stage reset reward based on total produced Stardust.\n(Intergalactic Stars are combined Interstellar Stars. Export rewards are based on highest reset value, that stored value will decrease by claimed amount)\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "星系际目前还没有结构，但它们的创建知识可以在之前的阶段找到。阶段重置和导出存档现在将奖励奇异夸克，'[26] 铁' 将根据总生产的恒星尘埃改善阶段重置奖励。\n（星系际星球是合并的星际星球。导出奖励基于最高重置值，该存储值将根据领取数量减少）\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "星系际目前还没有结构，但它们的创建知识可以在之前的阶段找到。阶段重置和导出存档现在将奖励奇异夸克，'[26] 铁' 将根据总生产的恒星尘埃改善阶段重置奖励。\n（星系际星球是合并的星际星球。导出奖励基于最高重置值，该存储值将根据领取数量减少）\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "Unlocked ability to End current Universes through basic End reset ‒ 'Big Crunch', also unlocked harder version of Void ‒ 'Supervoid' which is immune to End resets.\n(Will need to click the 'Void' button to toggle into Supervoid. End reset reward base will be increased by +1 if inside true Vacuum)\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "解锁了通过基本的终结重置 ‒ '大收缩' 来结束当前宇宙的能力，还解锁了更难的虚空版本 ‒ '超级虚空'，它对终结重置免疫。\n（需要点击 '虚空' 按钮切换到超级虚空。如果在真真空中，终结重置奖励基础将增加 +1）\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "解锁了通过基本的终结重置 ‒ '大收缩' 来结束当前宇宙的能力，还解锁了更难的虚空版本 ‒ '超级虚空'，它对终结重置免疫。\n（需要点击 '虚空' 按钮切换到超级虚空。如果在真真空中，终结重置奖励基础将增加 +1）\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
     "With Vacuum decaying, the remaining matter had rearranged itself, which had lead to the formation of the very first Challenge ‒ 'Void'. Check it out in the 'Advanced' subtab.\n(There is no reason to stay inside Challenges past time limit)\n\n(Can be viewed again with 'Events' button in Settings tab)":
-    "随着真空的衰变，剩余的物质重新排列，这导致了第一个挑战的形成 ‒ '虚空'。在“高级”子选项卡中查看它。\n（超过时间限制后就没有理由继续留在挑战中咯）\n\n（可以在设置标签页的“事件”按钮中再次查看）",
+    "随着真空的衰变，剩余的物质重新排列，这导致了第一个挑战的形成 ‒ '虚空'。在“高级”子选项卡中查看它。\n（超过时间限制后就没有理由继续留在挑战中咯）\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
+    "With Vacuum decaying, the remaining matter had rearranged itself, which had lead to the formation of the very first Challenge ‒ 'Void'. Check it out in the Advanced subtab.\n(There is no reason to stay inside Challenges past time limit)\n\n(Can be viewed again with 'Events' button in Settings tab)":
+    "随着真空的衰变，剩余的物质重新排列，这导致了第一个挑战的形成 ‒ '虚空'。在“高级”子选项卡中查看它。\n（超过时间限制后就没有理由继续留在挑战中咯）\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
+    "1000 Dark energy allows to do a more advanced End reset ‒ 'Big Rip', this one just adds non-self-made Universes into Cosmons gain base.\n(Doing it for the first time will also unlock new Inflation and false Vacuum Strangeness)\n\n(Can be viewed again with 'Events' button in Settings tab)":
+    "1000 暗能量允许进行更高级的终结重置 ‒ '大撕裂'，这个重置只是将非自建宇宙加入宇宙子获取基数。\n（第一次进行它还将解锁新的膨胀和新的假真空奇异升级）\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
+    "Now that current Universe is finished, it's time to Inflate a new one and so to unlock the Inflation tab.\n(Universes only use specialized hotkeys. Also 'Nucleosynthesis' unlocks more Elements based on self-made Universes)\n\n(Can be viewed again with 'Events' button in Settings tab)":
+    "既然当前宇宙已经完成，是时候膨胀一个新的宇宙并解锁 '膨胀' 选项卡了。\n（宇宙只使用专门的快捷键。此外，'核合成' 会根据自建宇宙解锁更多的元素）\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
+    "Unlocked ability to End current Universes through basic End reset ‒ 'Big Crunch', also unlocked harder version of Void ‒ 'Supervoid' which is immune to End resets.\n(Base for End resets reward is increased by +1 while inside true Vacuum, not affected by multipliers)\n\n(Can be viewed again with 'Events' button in Settings tab)":
+    "解锁了通过基本的终结重置 ‒ '大收缩' 来终结当前宇宙的能力，还解锁了更难的虚空版本 ‒ '超级虚空'，它对终结重置免疫。\n（在真真空中，终结重置奖励基础将增加 +1，不受倍数影响）\n\n（可以在设置选项卡的“事件”按钮中再次查看）",
 
     "Disabled by the Challenge": "被挑战禁用",
     "Value inside parentheses is storage and is equal to the highest reset value": "括号中的值是存储值，等于最高重置值（你可能暂时看不到括号，但是先别急。）",
@@ -2594,6 +2630,109 @@ var cnItems = {
     "Make Intergalactic Stage immune to Collapse reset and allow 'Upgrade automatization' to work within the Intergalactic Stage.": "使星系际阶段免疫坍缩重置，并允许“自动升级”在星系际阶段内工作。",
     "Unlocked Galaxy Researches and a new Milestone.\n(Also unlocked new toggle to automatically change active Stage to Intergalactic)": "解锁星系研究和一个新的里程碑。\n（还解锁了一个新的切换选项，可以自动将活动阶段更改为星系际）",
     "Changing this setting will reload the page, confirm?\n(Game will not autosave)": "更改此设置会重新加载页面，要继续吗？\n（游戏不会自动保存）",
+    "Time limit": "时间限制",
+    "Reset Abyss Stage": "重置深渊阶段",
+    "modes available)": "种模式可用）",
+    "Remaining time": "剩余时间",
+    "Start Universe resets with true Vacuum state (WIP)": "宇宙以真真空状态开始（制作中）",
+    "Start true Vacuum resets with Void equal to Supervoid": "真真空开始时虚空进度与超级虚空相同",
+    ", ignores Stability": "，忽略“稳定性”膨胀",
+    "Change Vacuum state to true": "将真空状态变为真",
+    "1 false Universe": "1 假宇宙",
+    "2 false Universe (WIP)": "2 假宇宙（制作中）",
+    "Max level increased for auto resets (WIP)": "自动重置的最大等级提升（制作中）",
+    "| Lowest on Tier 1 Big Rip:": "| 1 级大撕裂的最低自建宇宙数：",
+    "(Click this '": "点击这个‘",
+    "Auto Stage for false Vacuum": "假真空的自动阶段重置",
+    "Intergalactic Milestones no longer reset (WIP)": "星系际里程碑不再重置（制作中）",
+    "Stabilization unlocks:": "⌈稳定⌋ 解锁了：",
+    "Stabilize false Vacuum": "稳定假真空",
+    "Start false Vacuum resets with 'Automatic Merge' Strangeness at level 1, also unlock auto Universes": "开始假真空时拥有“自动合并”奇异升级 1 级，且解锁自动宇宙",
+    "Unlock the second Merge result.\n(Max level will be increased at 100 basic self-made Universes)": "解锁第二个合并结果。\n（最大等级将在 100 基础自建宇宙时提升）",
+    "Unlock the second Merge result.\n(Max level will be increased at 100 Void Universes)": "解锁第二个合并结果。\n（最大等级将在 100 虚空宇宙时提升）",
+    "Unlock the second Merge result.\n(Max level will be increased at 100 false Universes)": "解锁第二个合并结果。\n（最大等级将在 100 假宇宙时提升）",
+    "'Collapse improvement' (Cosmons)": "坍缩改进（宇宙子）",
+    "'Vaporization improvement' (Cosmons)":"汽化改进（宇宙子）",
+    "Hotkeys have been reset": "快捷键被重置了",
+    "'Work in progress": "制作中",
+    "Work in progress": "制作中",
+    "'Dark boost' (Abyss), 'Stranger gain' (Abyss)":"黑暗增益（深渊），更奇异的获取（深渊）",
+    "'Darkness' (Abyss), 'Stage Synergy' (Abyss)":"黑暗（深渊），阶段协同（深渊）",
+    "'Stranger gain' (Cosmons and Inflatons, WIP)":"更奇异的获取（宇宙子&膨胀点，制作中）",
+    ", will wait for Solar mass hardcap instead if set to 0": "，如果置为 0，则将会等待直到太阳质量达到硬上限",
+    "seconds passed since last Galaxy": "秒过去了，自从上次星系",
+    "Improve 'Overboost' and 'Strange gain' Inflations": "改进 ‘超提升’ 和 ‘奇异获取’ 膨胀",
+    "False Vacuum is stabilized by activating 'Stability' Inflation\nFalse Universes unlocks are related to Strangeness":
+     "通过激活 ‘稳定性’ 膨胀来稳定假真空\n假宇宙解锁的奖励与奇异升级相关",
+    "Protogalaxy Upgrades, Merging doesn't change Vacuum state": "原星系升级（原星系是一个完整的词），合并不会改变真空状态",
+    "' button or identical one in Advanced subtab to toggle into or out of the Supervoid)": "’按钮或者高级子选项卡中的相同按钮来切换进入或退出超级虚空）",
+    "True Vacuum only, reclaim up to 25% of Remnants once (doesn't affect Milestones).\nSecond level will increase max level of 'Galactic tide' Strangeness, but without passive effects until level 3.\nFinal level will increase max level of 'Automatic Collapse' Strangeness.":
+     "仅限真真空，再次获得最多 25% 的碎片（不受里程碑影响）。\n第二级会提升“星系潮汐”奇异升级的最大等级，但如果没有达到第三级，不会解锁其中的被动效果。\n最后一级会提升“自动坍缩”奇异升级的最大等级。",
+    "Increase max levels for a lot of Strangeness by +1, these include:\n'Fundamental boost', 'Bigger Puddles', 'Faster Accretion', 'Hotter Stars' and 'Bigger Structures'.":
+     "提升一些奇异升级的最大等级 1 级，包括：\n“基础提升”，“更大的水坑”，“更快的吸积”，“更炙热的星球”和“更大的结构”。",
+    "* Min(Big Rips + 2, 10)": "* Min（大撕裂数 + 2，10），其中 Min 表示取较小值",
+    "Improve End resets reward with Arithmetic progression of self-made Universes and a Step of": "用自建宇宙的等差数量改进终结重置奖励，其公差为",
+    "Increase max allowed non-safe Merge resets by +1 per relevant self-made Universes. (Universe cost is adjusted after every Merge reset above safe value)\nWhile in false Vacuum stabilize it, allow creation of false Universes and add new effect for 'Void Milestones' Inflation. (Related unlocks can be found in the Advanced subtab Vacuum information)\nWhile in Void it will allow creation of Quasi-stars, but they won't produce anything and will scale in cost 10 times faster.":
+     "每个相关自建宇宙提升最大允许非安全合并重置 1 次。（宇宙价格在每次安全值之外的合并重置被调整）\n在假真空中，稳定假真空，并允许创建假宇宙，为“虚空里程碑”膨胀添加新效果。（相关解锁可在“高级”子选项卡的真空信息中查看）\n在虚空中，它将允许创建类恒星，但它们不会生产任何东西，并且蠕变将是正常的 10 倍。",
+    "For false Vacuum it will remove time limit from Milestones, also enable Darkness, prevent it from being reset by other Stages and allow to be reset for Strangelets.\nFor true Vacuum it will unlock false Vacuum Milestones for Void. Their effects are active anywhere, but only if this Inflation is active.":
+     "对于假真空，它将为里程碑移除时间限制，使黑暗可用，防止它被其他阶段重置并允许重置获得奇异粒。\n对于真真空，它将为虚空解锁假真空里程碑。它们的效果在任何地方都是活跃的，但只有这个膨胀被激活的时候。",
+    "‒ Darkness uses separate automatizations\n‒ Currently Disabled in false Vacuum\n‒ Cost for everything is increased by 10 while inside any Void\nMore information to be revealed (WIP)":
+     "‒ 黑暗使用单独的自动化\n‒ 目前在假真空中禁用\n‒ 在任何虚空中，所有成本变为 10 倍\n更多信息将被揭示（制作中）",
+    "‒ Darkness uses separate automatizations\n‒ Currently Enabled in false Vacuum\n‒ Cost for everything is increased by 10 while inside any Void\nMore information to be revealed (WIP)":
+     "‒ 黑暗使用单独的自动化\n‒ 目前在假真空中可用\n‒ 在任何虚空中，所有成本变为 10 倍\n更多信息将被揭示（制作中）",
+    "‒ Drops above 1 do not increase their own strength\n‒ Puddles are 8000 times weaker\n‒ Clouds gain is decreased by ^0.8\n‒ 'Water spread' and the first two Researches are weaker\n‒ Clouds effects softcaps instanly":
+     "‒ 1 个以上的水滴不会增加它们自己的强度\n‒ 水坑强度变为 8000 分之一\n‒ 云增益降低为 ^0.8\n‒ “水传播”和前两个研究较弱\n‒ 云效果立即软上限",
+    "‒ Drops above 1 do not increase their own strength\n‒ Puddles are 8000 times weaker\n‒ Clouds gain is decreased by ^0.8\n‒ 'Water spread' and the first two Researches are weaker\nMore nerfs will be shown with more rewards":
+     "‒ 1 个以上的水滴不会增加它们自己的强度\n‒ 水坑强度变为 8000 分之一\n‒ 云增益降低为 ^0.8\n‒ “水传播”和前两个研究较弱\n更多削弱将在获取更多奖励后揭示",
+    "‒ Drops above 1 do not increase their own strength\n‒ Puddles are 8000 times weaker\n‒ Clouds gain is decreased by ^0.8\nMore nerfs will be shown with more rewards":
+     "‒ 1 个以上的水滴不会增加它们自己的强度\n‒ 水坑强度变为 8000 分之一\n‒ 云增益降低为 ^0.8\n更多削弱将在获取更多奖励后揭示",
+    "‒ Drops above 1 do not increase their own strength\n‒ Puddles are 8000 times weaker\nMore nerfs will be shown with more rewards":
+     "‒ 1 个以上的水滴不会增加它们自己的强度\n‒ 水坑强度变为 8000 分之一\n更多削弱将在获取更多奖励后揭示",
+    "‒ Drops above 1 do not increase their own strength\nMore nerfs will be shown with more rewards":
+     "‒ 1 个以上的水滴不会增加它们自己的强度\n更多削弱将在获取更多奖励后揭示",
+    "Automatically Vaporize when reached enough boost from new Clouds. (Needs to be enabled in Settings)\nSecond level will unlock 2.5% passive gain of Clouds per second or will instead increase passive gain by 10 if its already unlocked. (Not affected by global speed)":
+     "当能够从新云中获取足够的增益时自动汽化。（需要在设置中启用）\n第二级会解锁每秒 2.5% 的被动云获取，或者如果已经解锁，则提升其强度 10 倍。（不受全局速度影响）",
+    "Requires 'Stability' Inflation": "需要“稳定性”膨胀",
+    "Automatically Merge Galaxies if can't get any more of them quickly or can change Vacuum state. (Needs to be enabled in Settings)":
+     "如果无法快速获得更多星系或可以改变真空状态，则自动合并星系。（需要在设置中启用）",
+    "New Intergalactic themed Strangeness and a new Milestone.": "新星系际主题的奇异升级和一个新的里程碑。",
+    "Unlocked Galaxy Researches and a new Milestone.": "解锁星系研究和一个新的里程碑。",
+    "Increase Strangelets gain base by +1 per Stage reset.": "每次阶段重置时，增加奇异粒获取基础值 1。",
+    
+    "New Vacuum stability completion": "新的真空稳定性完成",
+    "New Vacuum stability completion:\nImprove 'Overboost' and 'Strange gain' Inflations": "新的真空稳定性完成：\n改进 ‘超提升’ 和 ‘奇异获取’ 膨胀",
+    "New Vacuum stability completion:\nMake 'Instability' Inflation immune to End resets": "新的真空稳定性完成：\n使 ‘不稳定性’ 膨胀免疫终结重置",
+    "New Vacuum stability completion:\nStart true Vacuum resets with Void equal to Supervoid": "新的真空稳定性完成：\n开始真真空重置时虚空进度等于超级虚空进度",
+    "New Vacuum stability completion:\nMicroworld Milestones no longer reset (WIP)": "新的真空稳定性完成：\n微观世界里程碑不再重置（制作中）",
+    "New Vacuum stability completion:\nSubmerged Milestones no longer reset (WIP)": "新的真空稳定性完成：\n湮没的里程碑不再重置（制作中）",
+    "New Vacuum stability completion:\nAccretion Milestones no longer reset (WIP)": "新的真空稳定性完成：\n吸积里程碑不再重置（制作中）",
+    "New Vacuum stability completion:\nInterstellar Milestones no longer reset (WIP)": "新的真空稳定性完成：\n星际里程碑不再重置（制作中）",
+    "New Vacuum stability completion:\nIntergalactic Milestones no longer reset (WIP)": "新的真空稳定性完成：\n星系际里程碑不再重置（制作中）",
+    "New Vacuum stability completion:\nStart Universe resets with true Vacuum state (WIP)": "新的真空稳定性完成：\n宇宙重置从真真空状态开始（制作中）",
+
+    "New Supervoid reward unlocked:\n'Discharge improvement' (Cosmons)": "新超级虚空奖励解锁：\n放能改进（宇宙子）",
+    "New Supervoid reward unlocked:\n'Indestructible matter' (Milestone)": "新超级虚空奖励解锁：\n坚不可摧的物质（里程碑）",
+    "New Supervoid reward unlocked:\n'Conservation of resources' (Cosmons)": "新超级虚空奖励解锁：\n资源保留（宇宙子）",
+    "New Supervoid reward unlocked:\n'Vaporization improvement' (Cosmons)": "新超级虚空奖励解锁：\n汽化改进（宇宙子）",
+    "New Supervoid reward unlocked:\n'Better rewards' (Inflatons, WIP)": "新超级虚空奖励解锁：\n更好的奖励（膨胀点，制作中）",
+    "New Supervoid reward unlocked:\n'Work in progress": "新超级虚空奖励解锁：\n制作中",
+    "New Supervoid reward unlocked:\nWork in progress": "新超级虚空奖励解锁：\n制作中",
+    "New Supervoid reward unlocked:\n'Rank improvement' (Cosmons)": "新超级虚空奖励解锁：\n等阶改进（宇宙子）",
+    "New Supervoid reward unlocked:\n'Passive Ranks' (Milestone)": "新超级虚空奖励解锁：\n被动等阶（里程碑）",
+    "New Supervoid reward unlocked:\n'More Cosmons' (Cosmons)": "新超级虚空奖励解锁：\n更多宇宙子（宇宙子）",
+    "New Supervoid reward unlocked:\n'Improved Offline' (Inflatons)": "新超级虚空奖励解锁：\n改进的离线（膨胀点）",
+    "New Supervoid reward unlocked:\n'Improved conservation' (Milestone)": "新超级虚空奖励解锁：\n“改进的保留”（里程碑）",
+    "New Supervoid reward unlocked:\n'Collapse improvement' (Cosmons)": "新超级虚空奖励解锁：\n坍缩改进（宇宙子）",
+    "New Supervoid reward unlocked:\n'Stranger gain' (Cosmons and Inflatons, WIP)": "新超级虚空奖励解锁：\n更奇异的获取（宇宙子&膨胀点，制作中）",
+    "New Supervoid reward unlocked:\n'Main Stars' (Milestone, WIP)": "新超级虚空奖励解锁：\n主星（里程碑，制作中）",
+    "New Supervoid reward unlocked:\n'Limitless Mass' (Milestone, WIP)": "新超级虚空奖励解锁：\n无限质量（里程碑，制作中）",
+    "New Supervoid reward unlocked:\n'Inflationary boost' (Inflatons, WIP)": "新超级虚空奖励解锁：\n膨胀增强（膨胀点，制作中）",
+    
+    "Unlock a new mini Stage 'Darkness', activated in the 'Advanced' subtab.\n(This Strangeness persists through Vacuum resets)":
+     "解锁一个新的迷你阶段“黑暗”，在“高级”子选项卡中激活。\n（这个奇异升级在真空重置中持续存在）",
+    "Max resets before Universes cost increases": "宇宙成本增加前的最大重置次数",
+    
+    "": "",
     "": "",
     "": "",
     "": "",
@@ -2873,7 +3012,7 @@ var cnPrefix = {
     "Cheaper Discharge.": "更低价的放能。",
     "Free Discharge.": "免费放能。",
     "Automatic Discharge.": "自动放能。",
-    "Strange boost.": "奇异提升。",
+    "Strange boost.": "奇异增益。",
     "Energy increase.": "能量增加。",
     "Conservation of Mass.": "保留质量。",
     "Conservation of Energy.": "保留能量。",
@@ -2917,7 +3056,8 @@ var cnPrefix = {
     "Acceleration.": "加速。",
     "Expansion.": "拓展。",
     "Quintessence.": "精华。",
-    "": "",
+    "It is recommended to enable support for Screen reader in Settings tab and also to check hotkeys. Default hotkeys to navigate tabs are Arrows":
+     "推荐在设置选项卡激活屏幕阅读器并检查快捷键。切换选项卡的默认快捷键是箭头。",
     "": "",
     "": "",
     "": "",
@@ -3192,7 +3332,8 @@ var cnRegReplace = new Map([
     [/^([\d\.,]+) Energy.$/, '$1 能量。'],
     [/^([\d\.,]+) Drops$/, '$1 水滴'],
     [/^([\d\.,]+) Moles$/, '$1 摩尔'],
-    [/^(.+) Cosmons, non-refundable.$/, '$1 宇宙子，不可退款'],
+    [/^(.+) Cosmons, non-refundable.$/, '$1 宇宙子，不可退款。'],
+    [/^(.+) Cosmons, non-refundable. \[x(.+)\]$/, '$1 宇宙子，不可退款。[x$2]'],
     [/^([\d\.,]+) Cosmons$/, '$1 宇宙子'],
     [/^([\d\.,]+) Drops.$/, '$1 水滴。'],
     [/^([\d\.,]+) Mass.$/, '$1 质量。'],
@@ -3242,11 +3383,17 @@ var cnRegReplace = new Map([
     [/^Unspent Strange quarks will boost Intergalactic by increasing Solar mass gain.\n\(Formula: Strange quarks \^0.06 \| Effect: (.+)\)$/, '未使用的奇异夸克增益星系际阶段，使其中的太阳质量获取成倍增长。\n（公式：奇异夸克数^0.06 | 效果：$1）'],
     [/^Unspent Strange quarks will boost Microworld by improving its Structures.\n\(Formula: Strange quarks \^(.+) \| Effect: (.+)\)$/, '未使用的奇异夸克增益微观世界阶段，使其中的结构成倍加速。\n（公式：奇异夸克数^$1 | 效果：$2）'],
     [/^Unspent Strange quarks will boost Submerged by improving Puddles.\n\(Formula: Strange quarks \^(.+) \| Effect: (.+)\)$/, '未使用的奇异夸克增益湮没阶段，使水坑成倍加速。\n（公式：奇异夸克数^$1 | 效果：$2）'],
+    
     [/^Total Strange quarks will boost Accretion by making its Structures cheaper.\n\(Formula: Strange quarks \^0.68 \| Effect: (.+)\)$/, '总的奇异夸克增益吸积阶段，使其中的结构价格成倍降低。\n（公式：奇异夸克数^0.68 | 效果：$1）'],
     [/^Total Strange quarks will boost Accretion by reducing cost of its Structures.\n\(Formula: Strange quarks \^0.68 \| Effect: (.+)\)$/, '总的奇异夸克增益吸积阶段，使其中的结构价格成倍降低。\n（公式：奇异夸克数^0.68 | 效果：$1）'],
+    [/^Total Strange quarks will boost Accretion by reducing cost of its Structures.\n\(Formula: Strange quarks \^0.76 \| Effect: (.+)\)$/, '总的奇异夸克增益吸积阶段，使其中的结构价格成倍降低。\n（公式：奇异夸克数^0.76 | 效果：$1）'],
     [/^Total Strange quarks will boost Intergalactic by increasing Solar mass gain.\n\(Formula: Strange quarks \^0.06 \| Effect: (.+)\)$/, '总的奇异夸克增益星系际阶段，使其中的太阳质量获取成倍增长。\n（公式：奇异夸克数^0.06 | 效果：$1）'],
     [/^Total Strange quarks will boost Microworld by improving its Structures.\n\(Formula: Strange quarks \^0.26 \| Effect: (.+)\)$/, '总的奇异夸克增益微观世界阶段，使其中的结构成倍加速。\n（公式：奇异夸克数^0.26 | 效果：$1）'],
     [/^Total Strange quarks will boost Submerged by improving Puddles.\n\(Formula: Strange quarks \^0.22 \| Effect: (.+)\)$/, '总的奇异夸克增益湮没阶段，使水坑成倍加速。\n（公式：奇异夸克数^0.22 | 效果：$1）'],
+    [/^Total Strange quarks will boost Microworld by improving its Structures.\n\(Formula: Strange quarks \^0.22 \| Effect: (.+)\)$/, '总的奇异夸克增益微观世界阶段，使其中的结构成倍加速。\n（公式：奇异夸克数^0.22 | 效果：$1）'],
+    [/^Total Strange quarks will boost Submerged by improving Puddles.\n\(Formula: Strange quarks \^0.18 \| Effect: (.+)\)$/, '总的奇异夸克增益湮没阶段，使水坑成倍加速。\n（公式：奇异夸克数^0.18 | 效果：$1）'],
+    [/^Unlock 1 minute Warps for the price of (.+) minutes of stored Offline time.\nIncrease Export storage by \+(.+)% ⟶ (.+)% of the Stage reset value after any Stage reset.\nIf inside any Challenge, then it will boost global speed by (.+) ⟶ (.+), but decrease time limit by (.+) ⟶ (.+).\n\(Offline time can be stored by rejecting it, max storage is (.+) hours\)$/,
+        '以 $1 分钟的储存离线时间为代价解锁 1 分钟的翘曲。\n任意阶段重置后增加 $2% ⟶ $3% 的阶段重置值到导出存储中。\n如果在任何挑战中，则提升全局速度至 $4 ⟶ $5 倍，但时间限制会除以 $6 ⟶ $7。\n（离线时间可以通过拒绝它来储存，最大储存为 $8 小时）'],
     [/^Unlock 1 minute Warps for the price of (.+) ⟶ (.+) minutes of stored Offline time.\nIncrease Export storage by \+(.+)% ⟶ (.+)% of the Stage reset value after any Stage reset.\nIf inside any Challenge, then it will boost global speed by (.+) ⟶ (.+), but decrease time limit by (.+) ⟶ (.+).\n\(Offline time can be stored by rejecting it, max storage is (.+) hours\)$/,
          '以 $1 ⟶ $2 分钟的储存离线时间为代价解锁 1 分钟的翘曲。\n任意阶段重置后增加 $3% ⟶ $4% 的阶段重置值到导出存储中。\n如果在任何挑战中，则提升全局速度至 $5 ⟶ $6 倍，但时间限制会除以 $7 ⟶ $8。\n（离线时间可以通过拒绝它来储存，最大储存为 $9 小时）'],
     [/^Store (.+) of rejected offline time, which can be used in 5 minute Warps for the price of 12 \(8 if inside any Challenge\) minutes of offline storage.\nIncrease Export storage by \+(.+) of the Stage reset value after any Stage reset.\nIf inside any Challenge, then it will also boost global speed by (.+), but decrease time limit by same amount.$/,
@@ -3368,7 +3515,11 @@ var cnRegReplace = new Map([
     [/^Mass production from Cosmic dust will be even bigger, current formula is (.+) \^ Rank.\n\(Total boost: (.+) ⟶ (.+)\)$/, '宇宙尘埃带来的质量生产变得更大，当前公式是 $1^等阶。\n（总提升：$2 ⟶ $3）'],
     [/^‒ Strange quarks from Stage resets are decreased by (.+)\n‒ Strange quarks from non-Interstellar Stage resets are further decreased by (.+)\n‒ Stage resets above (.+) decrease Strange quarks from the Stage resets by 2\n‒ Going above 10 minutes of the Stage time will force Stage reset$/, 
         '- 阶段重置获得的奇异夸克除以 $1\n- 非星际阶段重置获得的奇异夸克再除以 $2\n- 第 $3 次及以上的每一次阶段重置都使阶段重置获得的奇异夸克再除以 2\n- 持续进行 10 分钟的阶段将被强制进行阶段重置'],
+    [/^‒ Strange quarks from Stage resets are decreased by (.+)\n‒ Strange quarks from non-Interstellar Stage resets are further decreased by (.+)\n‒ Stage resets above (.+) decrease Strange quarks from the Stage resets by 2\n‒ Going above 10 minutes of the Stage time will force Stage reset\n‒ If can't reset after 10 minutes then Vacuum reset is forced instead$/, 
+        '- 阶段重置获得的奇异夸克除以 $1\n- 非星际阶段重置获得的奇异夸克再除以 $2\n- 第 $3 次及以上的每一次阶段重置都使阶段重置获得的奇异夸克再除以 2\n- 持续进行 10 分钟的阶段将被强制进行阶段重置\n- 如果在 10 分钟后无法进行阶段重置，则强制进行真空重置'],
     [/^Weaken internal gas pressure within Nebulas to cause even more gravitational Collapses.\nThis will make every self-made Nebula boost each other by (.+). \(\+0.00625 per level\)$/, '弱化星云内气压，这造成更多引力坍缩。\n这会使自建星云加成彼此 $1。（每级加 0.00625）'],
+    [/^Weaken internal gas pressure within Nebulas to cause even more gravitational Collapses.\nThis will make every self-made Nebula boost each other by (.+). \(\+0.00625 per level\)\n\(Max level will be increased at (.+) basic self-made Universes\)$/, 
+        '弱化星云内气压，这造成更多引力坍缩。\n这会使自建星云加成彼此 $1。（每级加 0.00625）\n（最大等级将在 $2 个基础自建宇宙时增加）'],
     [/^Weaken internal gas pressure within Nebulas to cause even more gravitational Collapses.\nThis will make every self-made Nebula boost each other by (.+). \(\+0.00625 per level\)\n\(Max level will be increased at (.+) Void Universes\)$/, 
         '弱化星云内气压，这造成更多引力坍缩。\n这会使自建星云加成彼此 $1。（每级加 0.00625）\n（最大等级将在 $2 个虚空宇宙时增加）'],
     [/^Weaken internal gas pressure within Nebulas to cause even more gravitational Collapses.\nThis will make every self-made Nebula boost each other by (.+). \(\+0.00625 per level\)\n\(Max level will be increased at (.+) false Universes\)$/, 
@@ -3420,17 +3571,18 @@ var cnRegReplace = new Map([
     [/^Increase Stage reset reward based on current Cloud amount.\n\(Formula: Clouds \^0.01 \| Effect: (.+)\)$/, '基于当前云的数量提升阶段重置奖励。\n（公式：云^0.01 | 效果：$1）'],
     [/^Increase Stage reset reward based on current Cloud amount.\n\(Formula: log10\(Clouds\) \/ 80 \+ 1 \| Effect: (.+)\)$/, '基于当前云的数量提升阶段重置奖励。\n（公式：log10(云)/80+1 | 效果：$1）'],
     [/^Increase Stage reset reward based on current Cloud amount.\n\(Formula: log10\(Clouds\) \/ 80 \+ 1 \| Effect: (.+) \^level\)$/, '基于当前云的数量提升阶段重置奖励。\n（公式：log10(云)/80+1 | 效果：$1^等级）'],
-    [/^Boost lower Stages based on current Galaxies and unlock new Upgrades for them.\n\(Passive effects: increase Energy gain from Galaxies by 5, decrease Discharge goal requirement by (.+), boost Puddles and Cosmic dust strength by (.+), delay Cosmic dust hardcap by (.+), boost Solar mass gain by (.+)\)\n\(New Upgrades: 'Nuclear fission' \(Microworld Upgrade\), 'Radioactive decay' \(Energy Research\), 'Megatsunami' \(Submerged Research\), 'Jeans Mass' \(Clouds Research\), 'Self-gravity' \(Accretion Upgrade\), 'Ablative armor' \(Rank Research\), 'Proton capture' \(Interstellar Upgrade\), 'White holes' \(Collapse Research\)\)$/, 
+    [/^Boost lower Stages based on current Galaxies and unlock new Upgrades for them.\n\(Passive effects: increasing Energy gain from Galaxies by 5, decreasing Discharge goal requirement by (.+), boosting Puddles and Cosmic dust strength by (.+), delaying Cosmic dust hardcap by (.+), boost Solar mass gain by (.+)\)\n\(New Upgrades: 'Nuclear fission' \(Microworld Upgrade\), 'Radioactive decay' \(Energy Research\), 'Megatsunami' \(Submerged Research\), 'Jeans Mass' \(Clouds Research\), 'Self-gravity' \(Accretion Upgrade\), 'Ablative armor' \(Rank Research\), 'Proton capture' \(Interstellar Upgrade\), 'White holes' \(Collapse Research\)\)$/, 
         '基于当前星系加成更低的阶段并且为它们解锁新的升级。\n（被动效果：提升星系获取的能量至 5 倍，将放能目标需求除以 $1，加成水坑和宇宙尘埃强度至 $2 倍，延迟宇宙尘埃硬上限至 $3 倍，加成太阳质量获取至 $4 倍）\n（新升级：“核裂变”（微观世界升级），“放射性衰变”（能量研究），“巨型海啸”（湮没研究），“金斯质量”（云研究），“自身引力”（吸积升级），“剥离式装甲”（等阶研究），“质子捕获”（星际升级），“白洞”（坍缩研究））'],
-    [/^Boost lower Stages based on current Galaxies and unlock new Upgrades for them.\n\(Passive effects: increase Energy gain from Galaxies by 5, decrease Discharge goal requirement by (.+), boost Puddles and Cosmic dust strength by (.+), delay Cosmic dust hardcap by (.+)\)\n\(New Upgrades: 'Nuclear fission' \(Microworld Upgrade\), 'Radioactive decay' \(Energy Research\), 'Megatsunami' \(Submerged Research\), 'Jeans Mass' \(Clouds Research\), 'Self-gravity' \(Accretion Upgrade\), 'Ablative armor' \(Rank Research\), 'Proton capture' \(Interstellar Upgrade\), 'White holes' \(Collapse Research\)\)$/, 
+    [/^Boost lower Stages based on current Galaxies and unlock new Upgrades for them.\n\(Passive effects: increasing Energy gain from Galaxies by 5, decreasing Discharge goal requirement by (.+), boosting Puddles and Cosmic dust strength by (.+), delaying Cosmic dust hardcap by (.+)\)\n\(New Upgrades: 'Nuclear fission' \(Microworld Upgrade\), 'Radioactive decay' \(Energy Research\), 'Megatsunami' \(Submerged Research\), 'Jeans Mass' \(Clouds Research\), 'Self-gravity' \(Accretion Upgrade\), 'Ablative armor' \(Rank Research\), 'Proton capture' \(Interstellar Upgrade\), 'White holes' \(Collapse Research\)\)$/, 
         '基于当前星系加成更低的阶段并且为它们解锁新的升级。\n（被动效果：提升星系获取的能量至 5 倍，将放能目标需求除以 $1，加成水坑和宇宙尘埃强度至 $2 倍，延迟宇宙尘埃硬上限至 $3 倍）\n（新升级：“核裂变”（微观世界升级），“放射性衰变”（能量研究），“巨型海啸”（湮没研究），“金斯质量”（云研究），“自身引力”（吸积升级），“剥离式装甲”（等阶研究），“质子捕获”（星际升级），“白洞”（坍缩研究））'],
+    [/^Boost lower Stages based on current Galaxies and unlock new Upgrades for them.\n\(Passive effects: increasing Energy gain from Galaxies by 5, decreasing Goals requirement by (.+), boosting Puddles and Cosmic dust strength by (.+), delaying Cosmic dust hardcap by (.+)\)\n\(New Upgrades: 'Nuclear fission' \(Microworld Upgrade\), 'Radioactive decay' \(Energy Research\), 'Megatsunami' \(Submerged Research\), 'Jeans Mass' \(Clouds Research\), 'Self-gravity' \(Accretion Upgrade\), 'Ablative armor' \(Rank Research\)\)$/, 
+        '基于当前星系加成更低的阶段并且为它们解锁新的升级。\n（被动效果：提升星系获取的能量至 5 倍，将放能目标需求除以 $1，加成水坑和宇宙尘埃强度至 $2 倍，延迟宇宙尘埃硬上限至 $3 倍）\n（新升级：“核裂变”（微观世界升级），“放射性衰变”（能量研究），“巨型海啸”（湮没研究），“金斯质量”（云研究），“自身引力”（吸积升级），“剥离式装甲”（等阶研究））'],
     [/^Boost lower Stages based on current Galaxies and unlock new Upgrades for them.\n\(Passive effects: increasing Energy gain from Galaxies by 5, decreasing Goals requirement by (.+), boosting Puddles and Cosmic dust strength by (.+), delaying Cosmic dust hardcap by (.+)\)\n\(New Upgrades: 'Nuclear fission' \(Microworld Upgrade\), 'Radioactive decay' \(Energy Research\), 'Jeans Mass' \(Clouds Research\), 'Self-gravity' \(Accretion Upgrade\), 'Ablative armor' \(Rank Research\)\)$/, 
         '基于当前星系加成更低的阶段并且为它们解锁新的升级。\n（被动效果：提升星系获取的能量至 5 倍，将放能目标需求除以 $1，加成水坑和宇宙尘埃强度至 $2 倍，延迟宇宙尘埃硬上限至 $3 倍）\n（新升级：“核裂变”（微观世界升级），“放射性衰变”（能量研究），“金斯质量”（云研究），“自身引力”（吸积升级），“剥离式装甲”（等阶研究））'],
     [/^Boost lower Stages based on current Galaxies and unlock new Upgrades for them.\n\(Passive effects: increasing Energy gain from Galaxies by 5, decreasing Goals requirement by (.+), boosting Puddles by (.+)\)\n\(New Upgrades: 'Nuclear fission' \(Microworld Upgrade\), 'Radioactive decay' \(Energy Research\), 'Jeans Mass' \(Clouds Research\)\)$/, 
         '基于当前星系加成更低的阶段并且为它们解锁新的升级。\n（被动效果：提升星系获取的能量至 5 倍，将放能目标需求除以 $1，加成水坑强度至 $2 倍）\n（新升级：“核裂变”（微观世界升级），“放射性衰变”（能量研究），“金斯质量”（云研究））'],
     [/^Boost lower Stages based on current Galaxies and unlock new Upgrades for them.\n\(Passive effects: increasing Energy gain from Galaxies by 5, decreasing Goals requirement by (.+)\)\n\(New Upgrades: 'Nuclear fission' \(Microworld Upgrade\), 'Radioactive decay' \(Energy Research\)\)$/, 
         '基于当前星系加成更低的阶段并且为它们解锁新的升级。\n（被动效果：提升星系获取的能量至 5 倍，将放能目标需求除以 $1）\n（新升级：“核裂变”（微观世界升级），“放射性衰变”（能量研究））'],
-        
     [/^Boost lower Stages based on current Galaxies and unlock new Upgrades for them.\n\(Passive effects: increase Energy gain from Galaxies by 5, decrease Discharge goal requirement by (.+), boost Puddles and Cosmic dust strength by (.+), delay Cosmic dust hardcap by (.+)\)\n\(New Upgrades: 'Nuclear fission' \(Microworld Upgrade\), 'Radioactive decay' \(Energy Research\), 'Megatsunami' \(Submerged Research\), 'Jeans Mass' \(Clouds Research\), 'Self-gravity' \(Accretion Upgrade\), 'Ablative armor' \(Rank Research\)\)$/, 
         '基于当前星系加成更低的阶段并且为它们解锁新的升级。\n（被动效果：提升星系获取的能量至 5 倍，将放能目标需求除以 $1，加成水坑和宇宙尘埃强度至 $2 倍，延迟宇宙尘埃硬上限至 $3 倍）\n（新升级：“核裂变”（微观世界升级），“放射性衰变”（能量研究），“巨型海啸”（湮没研究），“金斯质量”（云研究），“自身引力”（吸积升级），“剥离式装甲”（等阶研究））'],
     [/^Boost lower Stages based on current Galaxies and unlock new Upgrades for them.\n\(Passive effects: increase Energy gain from Galaxies by 5, decrease Discharge goal requirement by (.+), boost Puddles by (.+)\)\n\(New Upgrades: 'Nuclear fission' \(Microworld Upgrade\), 'Radioactive decay' \(Energy Research\), 'Megatsunami' \(Submerged Research\), 'Jeans Mass' \(Clouds Research\)\)$/, 
@@ -3738,6 +3890,8 @@ var cnRegReplace = new Map([
 
     [/^Increase the Energy required for Star clusters to cease being in a gravitationally bound state.\nThis will make every self-made Star cluster boost each other by (.+). \(\+0.00625 per level\)$/, 
         '提升星团停止处于引力束缚状态所需的能量。\n这会使每个自建星团加成彼此 $1 倍。（每级 +0.00625）'],
+    [/^Increase the Energy required for Star clusters to cease being in a gravitationally bound state.\nThis will make every self-made Star cluster boost each other by (.+). \(\+0.00625 per level\)\n\(Max level will be increased at (.+) basic self-made Universes\)$/, 
+        '提升星团停止处于引力束缚状态所需的能量。\n这会使每个自建星团加成彼此 $1 倍。（每级 +0.00625）\n（最大等级将在 $2 个基础自建宇宙时增加）'],
     [/^Increase the Energy required for Star clusters to cease being in a gravitationally bound state.\nThis will make every self-made Star cluster boost each other by (.+). \(\+0.00625 per level\)\n\(Max level will be increased at (.+) Void Universes\)$/, 
         '提升星团停止处于引力束缚状态所需的能量。\n这会使每个自建星团加成彼此 $1 倍。（每级 +0.00625）\n（最大等级将在 $2 个虚空宇宙时增加）'],
     [/^Increase the Energy required for Star clusters to cease being in a gravitationally bound state.\nThis will make every self-made Star cluster boost each other by (.+). \(\+0.00625 per level\)\n\(Max level will be increased at (.+) false Universes\)$/, 
@@ -3794,6 +3948,8 @@ var cnRegReplace = new Map([
     [/^Drops will improve Tritium (.+) times more for every self-made Drop.$/, '每个自建水滴改进氚至 $1 倍。'],
     [/^Drops will improve Antitritium (.+) times more for every self-made Drop.$/, '每个自建水滴改进反氚至 $1 倍。'],
     [/^Puddles will produce 2 times more Drops.\nEffective level is (.+), will be restored with more $/, '水坑会生产 2 倍的水滴。\n有效等级为 $1，恢复能力基于'],
+    [/^Any further fusion will be an endothermic process, but will still unlock a new Star type.\nCurrent base increase for Stage reset reward is \+(.+), which is equal to log10\(Stardust produced this Stage\) - 48.$/, 
+        '任何进一步的聚变都将是一个吸热过程，但还是会解锁一个新的星球类型。\n当前阶段重置奖励的基数提升为 +$1，这等于 log10(该阶段生产的星尘)-48。'],
     [/^Any further fusion will be an endothermic process, but will still unlock a new Star type and Intergalactic Stage.\nCurrent base increase for Stage reset reward is \+(.+), which is equal to log10\(Stardust produced this Stage\) - 48.$/, 
         '任何进一步的聚变都将是一个吸热过程，但还是会解锁一个新的星球类型和星系际阶段。\n当前阶段重置奖励的基数提升为 +$1，这等于 log10(该阶段生产的星尘)-48。'],
     [/^Any further fusion will be an endothermic process, but will still unlock a new Star type and Intergalactic Stage.\nCurrent base increase for Stage reset reward is \+(.+), which is equal to 'X \+ Step \* \(X\^2 - X\) \/ 2', X is log10\(Stardust produced this Stage\) - 48.$/, 
@@ -3949,8 +4105,10 @@ var cnRegReplace = new Map([
         '从终结重置中获得 1.4 倍的宇宙子。\n（再花费 $1 宇宙子后，最大等级将提升）'],
     [/^Gain 1.4 times more Strange quarks from any Stage reset per level.\nFirst (.+) levels \(1 per Vacuum stability completion\) will also boost global speed by 1.1, but only while inside any Challenge.$/, 
         '每级使任何阶段重置获得 1.4 倍的奇异夸克。\n前 $1 级（每完成一次真空稳定性获得 1 级）还会提升全局速度 1.1 倍，但仅在挑战中有效。'],
-    [/^All rewards are located in the 'Inflation' Tab\nAlso gain a single Inflaton after unlocking (.+) more rewards$/, '所有奖励都位于“膨胀”标签页\n再解锁 $1 个奖励后还将获得一个膨胀子'],
-    [/^All rewards are located in the 'Strangeness' Tab\nAlso gain (.+) Strange quarks, which is equal to total rewards$/, '所有奖励都位于“奇异升级”标签页\n还将获得 $1 个奇异夸克，该数量等于总奖励数'],
+    [/^Gain 1.4 times more Strange quarks from Stage resets per level.\nFirst (.+) levels \(1 per Vacuum stability completion\) will also boost global speed by 1.1, but only while inside any Challenge.$/, 
+        '每级使阶段重置获得 1.4 倍的奇异夸克。\n前 $1 级（每完成一次真空稳定性获得 1 级）还会提升全局速度 1.1 倍，但仅在挑战中有效。'],
+    [/^All rewards are located in the 'Inflation' Tab\nAlso gain a single Inflaton after unlocking (.+) more rewards$/, '所有奖励都位于“膨胀”选项卡\n再解锁 $1 个奖励后还将获得一个膨胀点'],
+    [/^All rewards are located in the 'Strangeness' Tab\nAlso gain (.+) Strange quarks, which is equal to total rewards$/, '所有奖励都位于“奇异升级”选项卡\n还将获得 $1 个奇异夸克，该数量等于总奖励数'],
     [/^Boost global speed and Stage reset reward by (.+), strength is based on Supervoid progress.$/, '提升全局速度和阶段重置奖励 $1 倍，该膨胀强度基于超级虚空进度。'],
     [/^Boost global speed and Stage reset reward by (.+), strength is based on Supervoid progress in the current End reset.$/,'使全局速度和阶段重置奖励提升至 $1 倍，强度基于当前终结重置的超级虚空进度。'],
     [/^Boost global speed by unspent Dark matter \^(.+).\n\(Boost per level: (.+), softcaps after (.+) Dark matter. Global speed doesn't speed up game ticks\)$/, 
@@ -3981,6 +4139,35 @@ var cnRegReplace = new Map([
     [/^Which is equal to (.+) per hour, not affected by global speed$/, '这相当于每小时 $1 奇异夸克，不受全局速度影响'],
     [/^Which is equal to (.+) per day, not affected by global speed$/, '这相当于每天 $1 奇异夸克，不受全局速度影响'],
     [/^Which is equal to (.+) per eon, not affected by global speed$/, '这相当于每宙 $1 奇异夸克，不受全局速度影响'],
+    [/^Total Strange quarks will boost Submerged by improving Puddles at level 1 and by reducing Drops requirement for Clouds at level 2.\n\(Formula: Strange quarks \^0.22 \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '总的奇异夸克将通过提升水坑（等级 1）和降低云的水滴数要求（等级 2）来增益湮没。\n（公式：奇异夸克数^0.22 | 效果：$1）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Total Strange quarks will boost Accretion by reducing cost of its Structures at level 1 and by reducing Rank requirements above 'Protogalaxy', improving Satellites at level 2.\n\(Formula: Strange quarks \^0.68 \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '总的奇异夸克将通过降低吸积阶段结构的成本（等级 1）和降低“原星系”以上的等阶要求、提升卫星（等级 2）来增益吸积。\n（公式：奇异夸克数^0.68 | 效果：$1）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Total Strange quarks will boost Intergalactic by increasing Solar mass gain at level 1 and by improving first two Structures at level 2.\n\(Formula: Strange quarks \^0.06 \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '总的奇异夸克将通过增加太阳质量获取（等级 1）和提升前两个结构（等级 2）来增益星际。\n（公式：奇异夸克数^0.06 | 效果：$1）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Total Strange quarks will boost Microworld by improving its Structures at level 1 and by improving Antitritium, reducing Discharge goals requirement at level 2.\n\(Formula: Strange quarks \^0.26 \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '总的奇异夸克将通过提升微观世界结构（等级 1）和改进反氚、降低放能目标要求（等级 2）来增益微观世界。\n（公式：奇异夸克数^0.26 | 效果：$1）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Total Strange quarks will boost Microworld by improving its Structures at level 1 and by improving Tritium, reducing Discharge goals requirement at level 2.\n\(Formula: Strange quarks \^0.26 \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '总的奇异夸克将通过提升微观世界结构（等级 1）和改进氚、降低放能目标要求（等级 2）来增益微观世界。\n（公式：奇异夸克数^0.26 | 效果：$1）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Total Strange quarks will boost Interstellar by improving its Structures at level 1 and by reducing cost of Brown dwarfs at level 2.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Antiiron' \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '总的奇异夸克将通过提升星际结构（等级 1）和降低褐矮星成本（等级 2）来增益星际。\n（公式：奇异夸克数^$1，指数在拥有 [26] 反铁 之后翻倍 | 效果：$2）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Total Strange quarks will boost Interstellar by improving its Structures at level 1 and by reducing cost of Brown dwarfs at level 2.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Iron' \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '总的奇异夸克将通过提升星际结构（等级 1）和降低褐矮星成本（等级 2）来增益星际。\n（公式：奇异夸克数^$1，指数在拥有 [26] 铁 之后翻倍 | 效果：$2）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Unspent Strange quarks will boost Submerged by improving Puddles at level 1 and by reducing Drops requirement for Clouds at level 2.\n\(Formula: Strange quarks \^0.22 \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '未花费的奇异夸克将通过提升水坑（等级 1）和降低云的水滴数要求（等级 2）来增益湮没。\n（公式：奇异夸克数^0.22 | 效果：$1）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Unspent Strange quarks will boost Accretion by reducing cost of its Structures at level 1 and by reducing Rank requirements above 'Protogalaxy', improving Satellites at level 2.\n\(Formula: Strange quarks \^0.68 \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '未花费的奇异夸克将通过降低吸积阶段结构的成本（等级 1）和降低“原星系”以上的等阶要求、提升卫星（等级 2）来增益吸积。\n（公式：奇异夸克数^0.68 | 效果：$1）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Unspent Strange quarks will boost Intergalactic by increasing Solar mass gain at level 1 and by improving first two Structures at level 2.\n\(Formula: Strange quarks \^0.06 \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '未花费的奇异夸克将通过增加太阳质量获取（等级 1）和提升前两个结构（等级 2）来增益星际。\n（公式：奇异夸克数^0.06 | 效果：$1）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Unspent Strange quarks will boost Microworld by improving its Structures at level 1 and by improving Antitritium, reducing Discharge goals requirement at level 2.\n\(Formula: Strange quarks \^0.26 \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/,
+        '未花费的奇异夸克将通过提升微观世界结构（等级 1）和改进反氚、降低放能目标要求（等级 2）来增益微观世界。\n（公式：奇异夸克数^0.26 | 效果：$1）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Unspent Strange quarks will boost Microworld by improving its Structures at level 1 and by improving Tritium, reducing Discharge goals requirement at level 2.\n\(Formula: Strange quarks \^0.26 \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/,
+        '未花费的奇异夸克将通过提升微观世界结构（等级 1）和改进氚、降低放能目标要求（等级 2）来增益微观世界。\n（公式：奇异夸克数^0.26 | 效果：$1）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Unspent Strange quarks will boost Interstellar by improving its Structures at level 1 and by reducing cost of Brown dwarfs at level 2.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Antiiron' \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '未花费的奇异夸克将通过提升星际结构（等级 1）和降低褐矮星成本（等级 2）来增益星际。\n（公式：奇异夸克数^$1，指数在拥有 [26] 反铁 之后翻倍 | 效果：$2）\n（第二级将提高其他奇异增益的成本）'],
+    [/^Unspent Strange quarks will boost Interstellar by improving its Structures at level 1 and by reducing cost of Brown dwarfs at level 2.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Iron' \| Effect: (.+)\)\n\(Level 2 of this Strangeness will increase cost scaling for every other Strange boost\)$/, 
+        '未花费的奇异夸克将通过提升星际结构（等级 1）和降低褐矮星成本（等级 2）来增益星际。\n（公式：奇异夸克数^$1，指数在拥有 [26] 铁 之后翻倍 | 效果：$2）\n（第二级将提高其他奇异增益的成本）'],
+        
     [/^Total Strange quarks will boost Submerged by improving Puddles at level 1 and by reducing Drops requirement for Clouds at level 2.\n\(Formula: Strange quarks \^0.22 \| Effect: (.+)\)$/, 
         '总的奇异夸克将通过提升水坑（等级 1）和降低云的水滴数要求（等级 2）来增益湮没。\n（公式：奇异夸克数^0.22 | 效果：$1）'],
     [/^Total Strange quarks will boost Accretion by reducing cost of its Structures at level 1 and by reducing Rank requirements above 'Protogalaxy', improving Satellites at level 2.\n\(Formula: Strange quarks \^0.68 \| Effect: (.+)\)$/, 
@@ -3989,22 +4176,30 @@ var cnRegReplace = new Map([
         '总的奇异夸克将通过增加太阳质量获取（等级 1）和提升前两个结构（等级 2）来增益星际。\n（公式：奇异夸克数^0.06 | 效果：$1）'],
     [/^Total Strange quarks will boost Microworld by improving its Structures at level 1 and by improving Antitritium, reducing Discharge goals requirement at level 2.\n\(Formula: Strange quarks \^0.26 \| Effect: (.+)\)$/, 
         '总的奇异夸克将通过提升微观世界结构（等级 1）和改进反氚、降低放能目标要求（等级 2）来增益微观世界。\n（公式：奇异夸克数^0.26 | 效果：$1）'],
+    [/^Total Strange quarks will boost Microworld by improving its Structures at level 1 and by improving Tritium, reducing Discharge goals requirement at level 2.\n\(Formula: Strange quarks \^0.26 \| Effect: (.+)\)$/, 
+        '总的奇异夸克将通过提升微观世界结构（等级 1）和改进氚、降低放能目标要求（等级 2）来增益微观世界。\n（公式：奇异夸克数^0.26 | 效果：$1）'],
+    [/^Total Strange quarks will boost Interstellar by improving its Structures at level 1 and by reducing cost of Brown dwarfs at level 2.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Antiiron' \| Effect: (.+)\)$/, 
+        '总的奇异夸克将通过提升星际结构（等级 1）和降低褐矮星成本（等级 2）来增益星际。\n（公式：奇异夸克数^$1，指数在拥有 [26] 反铁 之后翻倍 | 效果：$2）'],
+    [/^Total Strange quarks will boost Interstellar by improving its Structures at level 1 and by reducing cost of Brown dwarfs at level 2.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Iron' \| Effect: (.+)\)$/, 
+        '总的奇异夸克将通过提升星际结构（等级 1）和降低褐矮星成本（等级 2）来增益星际。\n（公式：奇异夸克数^$1，指数在拥有 [26] 铁 之后翻倍 | 效果：$2）'],
     [/^Unspent Strange quarks will boost Submerged by improving Puddles at level 1 and by reducing Drops requirement for Clouds at level 2.\n\(Formula: Strange quarks \^0.22 \| Effect: (.+)\)$/, 
         '未花费的奇异夸克将通过提升水坑（等级 1）和降低云的水滴数要求（等级 2）来增益湮没。\n（公式：奇异夸克数^0.22 | 效果：$1）'],
     [/^Unspent Strange quarks will boost Accretion by reducing cost of its Structures at level 1 and by reducing Rank requirements above 'Protogalaxy', improving Satellites at level 2.\n\(Formula: Strange quarks \^0.68 \| Effect: (.+)\)$/, 
         '未花费的奇异夸克将通过降低吸积阶段结构的成本（等级 1）和降低“原星系”以上的等阶要求、提升卫星（等级 2）来增益吸积。\n（公式：奇异夸克数^0.68 | 效果：$1）'],
     [/^Unspent Strange quarks will boost Intergalactic by increasing Solar mass gain at level 1 and by improving first two Structures at level 2.\n\(Formula: Strange quarks \^0.06 \| Effect: (.+)\)$/, 
         '未花费的奇异夸克将通过增加太阳质量获取（等级 1）和提升前两个结构（等级 2）来增益星际。\n（公式：奇异夸克数^0.06 | 效果：$1）'],
-    [/^Unspent Strange quarks will boost Microworld by improving its Structures at level 1 and by improving Antitritium, reducing Discharge goals requirement at level 2.\n\(Formula: Strange quarks \^0.26 \| Effect: (.+)\)$/, 
+    [/^Unspent Strange quarks will boost Microworld by improving its Structures at level 1 and by improving Antitritium, reducing Discharge goals requirement at level 2.\n\(Formula: Strange quarks \^0.26 \| Effect: (.+)\)$/,
         '未花费的奇异夸克将通过提升微观世界结构（等级 1）和改进反氚、降低放能目标要求（等级 2）来增益微观世界。\n（公式：奇异夸克数^0.26 | 效果：$1）'],
-    
+    [/^Unspent Strange quarks will boost Microworld by improving its Structures at level 1 and by improving Tritium, reducing Discharge goals requirement at level 2.\n\(Formula: Strange quarks \^0.26 \| Effect: (.+)\)$/,
+        '未花费的奇异夸克将通过提升微观世界结构（等级 1）和改进氚、降低放能目标要求（等级 2）来增益微观世界。\n（公式：奇异夸克数^0.26 | 效果：$1）'],
     [/^Unspent Strange quarks will boost Interstellar by improving its Structures at level 1 and by reducing cost of Brown dwarfs at level 2.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Antiiron' \| Effect: (.+)\)$/, 
         '未花费的奇异夸克将通过提升星际结构（等级 1）和降低褐矮星成本（等级 2）来增益星际。\n（公式：奇异夸克数^$1，指数在拥有 [26] 反铁 之后翻倍 | 效果：$2）'],
+    [/^Unspent Strange quarks will boost Interstellar by improving its Structures at level 1 and by reducing cost of Brown dwarfs at level 2.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Iron' \| Effect: (.+)\)$/, 
+        '未花费的奇异夸克将通过提升星际结构（等级 1）和降低褐矮星成本（等级 2）来增益星际。\n（公式：奇异夸克数^$1，指数在拥有 [26] 铁 之后翻倍 | 效果：$2）'],
+    
     [/^Unspent Strange quarks will boost Interstellar by improving all Stars.\n\(Formula: Strange quarks \^\(0.16 or 0.32, if '\[26\] Iron' is created\) \| Effect: (.+)\)$/, '未使用的奇异夸克增益星际阶段，使所有星球成倍加速。\n（公式：奇异夸克数^(0.16 或 0.32，如果 [26]铁 已经被创建了) | 效果：$1）'],
     [/^Unspent Strange quarks will boost Interstellar by improving its Structures.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Iron' \| Effect: (.+)\)$/, '未使用的奇异夸克增益星际阶段，使其中所有结构成倍加速。\n（公式：奇异夸克数^$1，指数在 [26]铁 被创建后变为原来的 2 倍 | 效果：$2）'],
     [/^Unspent Strange quarks will boost Interstellar by improving its Structures.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] AntiIron' \| Effect: (.+)\)$/, '未使用的奇异夸克增益星际阶段，使其中所有结构成倍加速。\n（公式：奇异夸克数^$1，指数在 [26]反铁 被创建后变为原来的 2 倍 | 效果：$2）'],
-    [/^Total Strange quarks will boost Interstellar by improving its Structures at level 1 and by reducing cost of Brown dwarfs at level 2.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Antiiron' \| Effect: (.+)\)$/, 
-        '总的奇异夸克将通过提升星际结构（等级 1）和降低褐矮星成本（等级 2）来增益星际。\n（公式：奇异夸克数^$1，指数在拥有 [26] 反铁 之后翻倍 | 效果：$2）'],
     [/^Total Strange quarks will boost Interstellar by improving all Stars.\n\(Formula: Strange quarks \^\(0.16 or 0.32, if '\[26\] Iron' is created\) \| Effect: (.+)\)$/, '总的奇异夸克增益星际阶段，使所有星球成倍加速。\n（公式：奇异夸克数^(0.16 或 0.32，如果 [26]铁 已经被创建了) | 效果：$1）'],
     [/^Total Strange quarks will boost Interstellar by improving its Structures.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] Iron' \| Effect: (.+)\)$/, '总的奇异夸克增益星际阶段，使其中所有结构成倍加速。\n（公式：奇异夸克数^$1，指数在 [26]铁 被创建后变为原来的 2 倍 | 效果：$2）'],
     [/^Total Strange quarks will boost Interstellar by improving its Structures.\n\(Formula: Strange quarks \^(.+), exponent is 2 times bigger with '\[26\] AntiIron' \| Effect: (.+)\)$/, '总的奇异夸克增益星际阶段，使其中所有结构成倍加速。\n（公式：奇异夸克数^$1，指数在 [26]铁 被创建后变为原来的 2 倍 | 效果：$2）'],
@@ -4152,6 +4347,37 @@ var cnRegReplace = new Map([
     [/^Have Solar mass after Collapse reach (.+) or more.$/, '坍缩后至少拥有 $1 太阳质量。'],
     [/^Have self-made Stars count reach at least (.+).$/, '自建星球数量至少达到 $1。'],
     [/^Have (.+) Galaxies or more.$/, '拥有至少 $1 个星系。'],
+    [/^Increase Stage reset reward based on current Cloud amount.\n\(Improves current formula: log10\(Clouds\) \/ 80 \+ 1 > Clouds \^0.01 \| Effect: (.+) > (.+)\)$/,
+         '基于当前云量提升阶段重置奖励。\n（改进当前公式：log10(云量)/80+1 > 云量^0.01 | 效果 $1 > $2）'],
+    [/^Deactivated the Darkness \| x(.+)$/, '取消激活了黑暗 | x$1次'],
+    [/^Activated the Darkness \| x(.+)$/, '激活了黑暗 | x$1次'],
+    [/^Entered the Supervoid \| x(.+)$/, '进入了超级虚空 | x$1次'],
+    [/^Exited the Supervoid \| x(.+)$/, '退出了超级虚空 | x$1次'],
+    [/^Entered the Void \| x(.+)$/, '进入了虚空 | x$1次'],
+    [/^Exited the Void \| x(.+)$/, '退出了虚空 | x$1次'],
+    [/^Entered the Vacuum stability \| x(.+)$/, '进入了真空稳定性 | x$1次'],
+    [/^Exited the Vacuum stability \| x(.+)$/, '退出了真空稳定性 | x$1次'],
+    [/^Drops will improve Tritium (.+) times more.$/, '水滴改进氚 $1 倍'],
+    [/^When formed, Clouds will use Drops produced this reset instead of current ones. \(Always active\)\nPassively gain (.+)% ⟶ (.+)% Clouds per second. \(Not affected by global speed\)$/,
+         '云形成时会基于这次重置生产的总水滴而不是当前剩余的。（总是激活）\n被动获得 $1% ⟶ $2% 云每秒。（不受全局速度影响）'],
+    [/^Stage Synergy. \(Level (.+) out of (.+)\)$/, '阶段协同。（等级 $1 / $2）'],
+    [/^Create new Atomic nuclei with Neutron capture \(s-process and r-process\).\nUnlocks (.+) more Element \(\+1 for every false Universe\).$/,
+         '通过中子捕获（s 过程和 r 过程）创造新的原子核。\n解锁 $1 个元素（每个假宇宙增加 +1）。'],
+    [/^Create new Atomic nuclei with Neutron capture \(s-process and r-process\).\nUnlocks (.+) more Element \(\+1 for every basic self-made Universe\).$/,
+         '通过中子捕获（s 过程和 r 过程）创造新的原子核。\n解锁 $1 个元素（每个基础自建宇宙增加 +1）。'],
+    [/^Create new Atomic nuclei with Neutron capture \(s-process and r-process\).\nUnlocks (.+) more Element \(\+1 for every Void Universe\).$/,
+         '通过中子捕获（s 过程和 r 过程）创造新的原子核。\n解锁 $1 个元素（每个虚空宇宙增加 +1）。'],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
+    // [/^$/, ''],
     // [/^$/, ''],
     // [/^$/, ''],
     // [/^$/, ''],
@@ -4162,15 +4388,7 @@ var cnRegReplace = new Map([
 //正则表达式中的 ( ) + ^ | / [ ] * 要在前面加\转义，否则无法正确识别。别的还有没有我不到啊。
 //-要打吗？怎么以前的人打了我没打但是我也活了。
 /*
-  todo: 以及各种奖励弹出来的框/tuu……。
-  这个vs的格式有点难找啊……
-  以及超级虚空的奖励也没搞。
-  早晚得重新玩一遍。
-  
-  在解锁某结构之前就解锁其自动化的描述会导致unknown……
-  那我哐哐挂机是不是能解锁一车unknown，还能摆在已解锁下面……
-  我祈求大家正常点玩好了……
-  自动化下一个是unknown我还是解决一下好了。
+    我们翻完了……暂时
 */
 //感谢做汉化插件的大佬们！~~
 //以及感谢为我提供存档的大佬
