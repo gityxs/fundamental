@@ -1015,7 +1015,7 @@
                                     <button type="button" id="toggleAuto4Info" class="hollowButton stage6borderButton" aria-label="Settings" aria-haspopup="menu" aria-controls="toggleAuto4Menu">!</button>
                                     <div id="toggleAuto4Menu" class="popUpMenu" style="display: none;" role="menu" aria-label="Settings menu">
                                         <p><label>Collapse when boost from doing it has reached at least <input type="number" id="collapseInput" step="any"></label> or <label>if Solar mass will increase to at least <span id="collapsePoints"></span><input type="number" id="collapseAddNewPoint" step="any" inputmode="text"></label><br>(<span id="collapsePointsMax">Maximum value is 40</span>, writing number with a minus will remove it and 0 will remove all)</p>
-                                        <label id="collapseCapped">Prevent auto Collapse if Solar mass can be hardcapped within <input type="number" id="collapseInputWait" step="any" inputmode="text"> seconds and not yet hardcapped</label>
+                                        <label id="collapseCapped">Prevent auto Collapse if Solar mass can be hardcapped within <input type="number" id="collapseInputWait" step="any" inputmode="text"> seconds and not yet hardcapped, always prevented if value is at least 1e60</label>
                                     </div>
                                 </div>
                                 <button type="button" id="toggleAuto4" class="toggleAuto">Auto OFF</button>
