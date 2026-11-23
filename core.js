@@ -242,3 +242,71 @@ function TransSubTextNode(node) {
     });
     observer.observe(targetNode, observer_config);
 }();
+
+/* ==== 多行文本逐行汉化补丁（由汉化补全脚本追加） ==== */
+(function () {
+    var baseCnItem = cnItem;
+    var LATIN = /[A-Za-z]/;
+    // 仅当整段确实被翻译成中文时才算数：
+    // 否则像 " Cosmons" 这类后缀替换会让整段被误判为“已翻译”，从而跳过逐行汉化。
+    function translatedEnough(s) {
+        var cjk = s.match(/[\u4e00-\u9fff]/g);
+        if (!cjk || cjk.length < 2) return false;
+        var compact = s.replace(/\s+/g, '');
+        return cjk.length / Math.max(1, compact.length) >= 0.15;
+    }
+    function transLine(line, node) {
+        if (!line || !LATIN.test(line)) return line;
+        var m = line.match(/^(\s*)([\s\S]*?)(\s*)$/);
+        var lead = m[1], core = m[2], tail = m[3];
+        if (!core) return line;
+        var out = baseCnItem(core, node);
+        return out === core ? line : lead + out + tail;
+    }
+    cnItem = function (text, node) {
+        if (typeof text !== 'string') return text;
+        var norm = text.indexOf('\r') === -1 ? text : text.replace(/\r\n/g, '\n');
+        var whole = baseCnItem(norm, node);
+        if (whole !== norm && translatedEnough(whole)) return whole;
+        if (norm.indexOf('\n') === -1) return whole;
+        var lines = norm.split('\n');
+        var changed = false;
+        for (var i = 0; i < lines.length; i++) {
+            var t = transLine(lines[i], node);
+            if (t !== lines[i]) { lines[i] = t; changed = true; }
+        }
+        return changed ? lines.join('\n') : whole;
+    };
+})();
+
+/* ==== 合并按钮说明：真假真空提示整体汉化 ====
+   这两句是带内联 <span> 的 HTML，会被拆成多个文本节点各自匹配，
+   从而出现「返回到假Vacuum state by Merging星系」「真空decaying into its 真state」这类中英混杂。
+   这里按整段识别后整体替换，颜色用的 span 保持原样。 */
+(function () {
+    var RULES = [
+        {
+            test: /Vacuum state by|there are no direct rewards/,
+            html: '通过把 <span class="grayText">星系</span> <span class="darkvioletText">合并</span> 在一起，可返回到 <span class="redText">假</span> 真空状态，但没有直接奖励'
+        },
+        {
+            test: /decaying into its|will result in/,
+            html: '试图把 <span class="grayText">星系</span> <span class="darkvioletText">合并</span> 在一起，会导致 <span class="orchidText">真空</span> 衰减到 <span class="greenText">真</span> 状态'
+        }
+    ];
+    function fix() {
+        var el = document.getElementById('mergeFalse');
+        if (!el) return;
+        var txt = el.textContent;
+        for (var i = 0; i < RULES.length; i++) {
+            if (RULES[i].test.test(txt)) { el.innerHTML = RULES[i].html; return; }
+        }
+    }
+    function start() {
+        var el = document.getElementById('mergeFalse');
+        if (!el) return;
+        new MutationObserver(fix).observe(el, { childList: true, subtree: true, characterData: true });
+        fix();
+    }
+    if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', start); } else { start(); }
+})();
